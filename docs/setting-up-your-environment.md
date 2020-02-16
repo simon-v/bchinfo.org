@@ -149,6 +149,12 @@ directory.  The following alternative options are available:
     ## Or build the site and run all tests
     make all
 
+#### Deploying the Site
+
+To have the site properly load and be served correctly, please run:
+
+   bundle exec jekyll serve
+
 #### Fast Partial Previews Or Builds
 
 In order to preview some changes faster, you can disable all plugins and

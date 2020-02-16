@@ -86,10 +86,10 @@ base-url:    /
 ## Used in newer versions of Jekyll
 baseurl:    /
 
-name: "btcinformation.org"
-url: "https://btcinformation.org" ## No trailing slash.
-repo: https://github.com/achow101/btcinformation.org
-email: "admin@btcinformation.org"
+name: "bchinfo.org"
+url: "https://bchinfo.org" ## No trailing slash.
+repo: https://github.com/pokkst/bchinfo.org
+email: "admin@bchinfo.org"
 
 source:      .
 destination: ./_site
