@@ -2,18 +2,18 @@
 # This file is licensed under the MIT License (MIT) available on
 # http://opensource.org/licenses/MIT.
 
-id: electrum
-title: "Electrum"
-titleshort: "Electrum"
+id: electroncash
+title: "Electron Cash"
+titleshort: "Electron Cash"
 compat: "desktop windows mac linux mobile android"
 level: 2
 platform:
   - desktop:
     name: desktop
     default: &DEFAULT
-      text: "walletelectrum"
-      link: "https://electrum.org"
-      source: "https://github.com/spesmilo/electrum"
+      text: "walletelectroncash"
+      link: "https://electroncash.org"
+      source: "https://github.com/Electron-Cash/Electron-Cash"
       screenshot: "electrum.png"
       check:
         control: "checkgoodcontrolfull"
@@ -37,9 +37,9 @@ platform:
     name: mobile
     os:
       - name: android
-        text: "walletelectrum"
-        link: "https://play.google.com/store/apps/details?id=org.electrum.electrum"
-        source: "https://github.com/spesmilo/electrum"
+        text: "walletelectroncash"
+        link: "https://play.google.com/store/apps/details?id=org.electroncash.wallet"
+        source: "https://github.com/Electron-Cash/Electron-Cash"
         screenshot: "electrumandroid.png"
         check:
           control: "checkgoodcontrolfull"
