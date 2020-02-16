@@ -4,7 +4,7 @@
 
 id: electroncash
 title: "Electron Cash"
-titleshort: "Electron Cash"
+titleshort: "Electron<br>Cash"
 compat: "desktop windows mac linux mobile android"
 level: 2
 platform:
