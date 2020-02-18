@@ -260,7 +260,11 @@ $scores:
             @each $check in $checks {
                 &.check#{$check} {
 		    @if $check == slp {
-
+			@if $score == good {
+                        	background-image: url('/img/icons/check_#{$check}_pass.png');
+                    	} @else {
+                        	background-image: url('/img/icons/check_#{$check}_#{$score}.png');
+                    	}
 		    } @else {
                     	@if $score == good {
                         	background-image: url('/img/icons/check_#{$check}_pass.svg');
