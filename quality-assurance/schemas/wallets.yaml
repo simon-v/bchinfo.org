@@ -191,6 +191,12 @@ properties:
                       - checkpassfeecontroloverride
                       - checkneutralfeecontrolvariable
                       - checkfailfeecontrolstatic
+                  slp:
+                    description: Does the wallet support SLP tokens
+                    type: string
+                    enum:
+                      - checkpassslptokens
+                      - checkfailslptokens
               privacycheck: &privacycheck
                 description: Details about the wallet's privacy settings
                 type: object
