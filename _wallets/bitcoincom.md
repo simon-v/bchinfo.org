@@ -4,7 +4,7 @@
 
 id: bitcoincom
 title: "Bitcoin.com Wallet"
-titleshort: "Bitcoin.com<br>Wallet"
+titleshort: "Bitcoin.com"
 compat: "mobile desktop android ios windows mac linux"
 level: 3
 platform:
