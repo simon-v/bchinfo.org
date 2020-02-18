@@ -19,9 +19,8 @@ platform:
         control: "checkgoodcontrolfull"
         validation: "checkpassvalidationspvservers"
         transparency: "checkpasstransparencyopensource"
-        environment: "checkfailenvironmenttwofactor"
+        environment: "checkfailenvironmentdesktop"
         privacy: "checkpassprivacybasic"
-        fees: "checkgoodfeecontrolfull"
       privacycheck:
         privacyaddressreuse: "checkpassprivacyaddressrotation"
         privacydisclosure: "checkpassprivacydisclosurecentralized"
@@ -50,6 +49,6 @@ platform:
           fees: "checkgoodfeecontrolfull"
         privacycheck:
           privacyaddressreuse: "checkpassprivacyaddressrotation"
-          privacydisclosure: "checkfailprivacydisclosurespv"
-          privacynetwork: "checkfailprivacynetworknosupporttor"
+          privacydisclosure: "checkpassprivacydisclosurecentralized"
+          privacynetwork: "checkpassprivacynetworksupporttorproxy"
 ---
