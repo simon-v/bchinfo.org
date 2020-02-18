@@ -21,7 +21,7 @@ platform:
         transparency: "checkpasstransparencyopensource"
         environment: "checkfailenvironmentdesktop"
         privacy: "checkpassprivacybasic"
-	slp: "checkpassslptokens"
+        slp: "checkpassslptokens"
       privacycheck:
         privacyaddressreuse: "checkpassprivacyaddressrotation"
         privacydisclosure: "checkpassprivacydisclosurecentralized"
@@ -47,7 +47,7 @@ platform:
           transparency: "checkpasstransparencyopensource"
           environment: "checkpassenvironmentmobile"
           privacy: "checkpassprivacybasic"
-	  slp: "checkpassslptokens"
+          slp: "checkpassslptokens"
         privacycheck:
           privacyaddressreuse: "checkpassprivacyaddressrotation"
           privacydisclosure: "checkpassprivacydisclosurecentralized"
