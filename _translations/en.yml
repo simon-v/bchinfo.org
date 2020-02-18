@@ -179,7 +179,7 @@ en:
     walletcatdesktop: "Desktop"
     walletcathardware: "Hardware"
     walletcatweb: "Web"
-    walletcrescentcash: "Crescent Cash is a Bitcoin Cash designed to be as simple as possible for the average user by utilizing the <a href=\"https://cashaccount.info\">Cash Account</a> alias system for addresses."
+    walletcrescentcash: "Crescent Cash is a Bitcoin Cash wallet designed to be as simple as possible for the average user by utilizing the <a href=\"https://cashaccount.info\">Cash Account</a> alias system for addresses."
     walletelectroncash: "Electron Cash's focus is speed and simplicity, with low resource usage. It uses remote servers that handle the most complicated parts of the Bitcoin Cash system, and it allows you to recover your wallet from a secret phrase."
     walletbitcoincom: "The Bitcoin.com Wallet is the fastest Bitcoin wallet ever created. Validation is handled remotely, but only you control your keys."
     walletedgewallet: "Edge is a Segwit compatible, mobile Bitcoin Cash Wallet making high levels of privacy, security, and decentralization very familiar and usable to the masses. Edge wallets are always automatically encrypted, backed up, and even function when Edge servers go down."
