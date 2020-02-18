@@ -289,7 +289,7 @@ en:
     checkfailfeecontrolstatic: "Static fee suggestions"
     checkfailfeecontrolstatictxt: "This wallet does not provide any fee suggestions which are based on current network conditions.  This means that your transactions may be subject to delays if the fee chosen is too low, or that you may pay a fee which is too high."
     checkpassslptokens: "Supports SLP tokens"
-    checkpassslptokenstxt: "This wallet supports Simple Ledger Protocol tokens. Read more at <a href="https://simpleledger.cash">simpleledger.cash</a>."
+    checkpassslptokenstxt: "This wallet supports Simple Ledger Protocol tokens. Read more at <a href=\"https://simpleledger.cash\">simpleledger.cash</a>."
     checkfailslptokens: "Does not support SLP tokens"
     checkfailslptokenstxt: "This wallet does not support Simple Ledger Protocol tokens. Read more at <a href="https://simpleledger.cash">simpleledger.cash</a>"
     educate: "Take time to educate yourself"
