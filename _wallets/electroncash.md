@@ -22,6 +22,7 @@ platform:
         environment: "checkpassenvironmenttwofactor"
         privacy: "checkpassprivacybasic"
         fees: "checkgoodfeecontrolfull"
+        slp: "checkpassslptokens"
       privacycheck:
         privacyaddressreuse: "checkpassprivacyaddressrotation"
         privacydisclosure: "checkfailprivacydisclosurecentralized"
@@ -48,6 +49,7 @@ platform:
           environment: "checkpassenvironmentmobile"
           privacy: "checkpassprivacybasic"
           fees: "checkgoodfeecontrolfull"
+          slp: "checkfailslptokens"
         privacycheck:
           privacyaddressreuse: "checkpassprivacyaddressrotation"
           privacydisclosure: "checkfailprivacydisclosureaccount"
