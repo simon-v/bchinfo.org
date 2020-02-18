@@ -131,7 +131,6 @@ properties:
                   - transparency
                   - environment
                   - privacy
-                  - slp
                   ## TODO: make required when web wallets moved
                   # - fees
                 additionalProperties: false
