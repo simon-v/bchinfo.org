@@ -46,7 +46,7 @@ The `gettxoutsetinfo` RPC {{summary_getTxOutSetInfo}}
 - n: "→<br>`bytes_serialized`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "The size of the serialized UTXO set in bytes; not counting overhead, this is the size of the `chainstate` directory in the Bitcoin Core configuration directory"
+  d: "The size of the serialized UTXO set in bytes; not counting overhead, this is the size of the `chainstate` directory in the Bitcoin Cash Node configuration directory"
 
 - n: "→<br>`hash_serialized`"
   t: "string (hex)"
@@ -60,7 +60,7 @@ The `gettxoutsetinfo` RPC {{summary_getTxOutSetInfo}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli -testnet gettxoutsetinfo

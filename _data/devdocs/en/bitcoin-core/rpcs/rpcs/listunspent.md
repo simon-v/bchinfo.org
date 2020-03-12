@@ -83,7 +83,7 @@ the *spendable* field in the results described below.
 - n: "→ →<br>`account`"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>If the address returned belongs to an account, this is the account.  Otherwise not returned"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>If the address returned belongs to an account, this is the account.  Otherwise not returned"
 
 - n: "→ →<br>`scriptPubKey`"
   t: "string (hex)"
@@ -113,11 +113,11 @@ the *spendable* field in the results described below.
 - n: "→ →<br>`solvable`"
   t: "bool"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>Set to `true` if the wallet knows how to spend this output.  Set to `false` if the wallet does not know how to spend the output.  It is ignored if the private keys are available "
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>Set to `true` if the wallet knows how to spend this output.  Set to `false` if the wallet does not know how to spend the output.  It is ignored if the private keys are available "
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Get all outputs confirmed at least 6 times for a particular
 address:

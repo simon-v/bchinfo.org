@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.12.0*
+*Added in Bitcoin Cash Node 0.12.0*
 
 The `disconnectnode` RPC {{summary_disconnectNode}}
 
@@ -21,7 +21,7 @@ The `disconnectnode` RPC {{summary_disconnectNode}}
 - n: "Address"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Updated in Bitcoin Core 0.14.1*<br><br>The node you want to disconnect from as a string in the form of `<IP address>:<port>`.  The IP address may be a hostname resolvable through DNS, an IPv4 address, an IPv4-as-IPv6 address, or an IPv6 address"
+  d: "*Updated in Bitcoin Cash Node 0.14.1*<br><br>The node you want to disconnect from as a string in the form of `<IP address>:<port>`.  The IP address may be a hostname resolvable through DNS, an IPv4 address, an IPv4-as-IPv6 address, or an IPv6 address"
 
 {% enditemplate %}
 
@@ -35,7 +35,7 @@ The `disconnectnode` RPC {{summary_disconnectNode}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.14.1*
+*Example from Bitcoin Cash Node 0.14.1*
 
 Disconnects following node from your node.
 

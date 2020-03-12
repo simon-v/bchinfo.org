@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.13.0*
+*Added in Bitcoin Cash Node 0.13.0*
 
 *Requires wallet support.*
 
@@ -37,7 +37,7 @@ The `removeprunedfunds` RPC {{summary_removePrunedFunds}} This will effect walle
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli removeprunedfunds a8d0c0184dde994a09ec054286f1ce581b\

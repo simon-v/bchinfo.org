@@ -42,21 +42,21 @@ GET /mempool/info.json
 - n: "→<br>`usage`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.11.0*<br><br>Total memory usage for the mempool in bytes"
+  d: "*Added in Bitcoin Cash Node 0.11.0*<br><br>Total memory usage for the mempool in bytes"
 
 - n: "→<br>`maxmempool`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>Maximum memory usage for the mempool in bytes"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>Maximum memory usage for the mempool in bytes"
 
 - n: "→<br>`mempoolminfee`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The lowest fee per kilobyte paid by any transaction in the memory pool"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The lowest fee per kilobyte paid by any transaction in the memory pool"
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 Get memory pool info in JSON:
 

@@ -85,7 +85,7 @@ GET /headers/<count>/<hash>.<format>
 - n: "→→<br>`versionHex`"
   t: "string (hex)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>This block's version number formatted in hexadecimal.  See [BIP9 assignments][]"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>This block's version number formatted in hexadecimal.  See [BIP9 assignments][]"
 
 - n: "→→<br>`merkleroot`"
   t: "string (hex)"
@@ -100,7 +100,7 @@ GET /headers/<count>/<hash>.<format>
 - n: "→→<br>`mediantime`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
 
 - n: "→→<br>`nonce`"
   t: "number (int)"
@@ -134,7 +134,7 @@ GET /headers/<count>/<hash>.<format>
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 Request 5 block headers in hex-encoded serialized block format:
 

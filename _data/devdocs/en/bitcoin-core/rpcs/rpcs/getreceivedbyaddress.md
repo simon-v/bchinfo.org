@@ -39,7 +39,7 @@ The `getreceivedbyaddress` RPC {{summary_getReceivedByAddress}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Get the bitcoins received for a particular address, only counting
 transactions with six or more confirmations:

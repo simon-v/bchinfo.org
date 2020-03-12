@@ -7,7 +7,7 @@ http://opensource.org/licenses/MIT.
 ##### GET Tx
 {% include helpers/subhead-links.md %}
 
-{% assign summary_restGetTx="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Core only stores complete transaction data for UTXOs and your own transactions, so this method may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Core startup settings." %}
+{% assign summary_restGetTx="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Cash Node only stores complete transaction data for UTXOs and your own transactions, so this method may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Cash Node startup settings." %}
 
 {% autocrossref %}
 
@@ -75,7 +75,7 @@ GET /tx/<txid>.<format>
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 Request a transaction in hex-encoded serialized transaction format:
 

@@ -63,7 +63,7 @@ GET /block/<hash>.<format>
 - n: "→<br>`strippedsize`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The size of this block in serialized block format excluding witness data, counted in bytes"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The size of this block in serialized block format excluding witness data, counted in bytes"
   
 - n: "→<br>`size`"
   t: "number (int)"
@@ -73,7 +73,7 @@ GET /block/<hash>.<format>
 - n: "→<br>`weight`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The block weight as defined in BIP 141"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The block weight as defined in BIP 141"
 
 - n: "→<br>`height`"
   t: "number (int)"
@@ -88,7 +88,7 @@ GET /block/<hash>.<format>
 - n: "→<br>`versionHex`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>This block's version number formatted in hexadecimal.  See [BIP9 assignments]"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>This block's version number formatted in hexadecimal.  See [BIP9 assignments]"
 
 - n: "→<br>`merkleroot`"
   t: "string (hex)"
@@ -114,7 +114,7 @@ GET /block/<hash>.<format>
 - n: "→<br>`mediantime`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
 
 - n: "→<br>`nonce`"
   t: "number (int)"
@@ -148,7 +148,7 @@ GET /block/<hash>.<format>
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 Request a block in hex-encoded serialized block format:
 

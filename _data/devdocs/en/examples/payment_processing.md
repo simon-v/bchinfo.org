@@ -61,7 +61,7 @@ Google's Protocol Buffer compiler (`protoc`), which is available in most
 modern Linux package managers and [directly from Google.][protobuf] Non-Google
 protocol buffer compilers are available for a variety of
 programming languages. You will also need a copy of the PaymentRequest
-[Protocol Buffer description][core paymentrequest.proto] from the Bitcoin Core source code.
+[Protocol Buffer description][core paymentrequest.proto] from the Bitcoin Cash Node source code.
 
 {% endautocrossref %}
 
@@ -467,8 +467,8 @@ serialized data is in binary, so we can't use Python's print()
 because it would add an extraneous newline.
 
 The following screenshot shows how the authenticated PaymentDetails
-created by the program above appears in the GUI from Bitcoin Core 0.9.
+created by the program above appears in the GUI from Bitcoin Cash Node 0.9.
 
-![Bitcoin Core Showing Validated Payment Request](/img/dev/en-btcc-payment-request.png)
+![Bitcoin Cash Node Showing Validated Payment Request](/img/dev/en-btcc-payment-request.png)
 
 {% endautocrossref %}

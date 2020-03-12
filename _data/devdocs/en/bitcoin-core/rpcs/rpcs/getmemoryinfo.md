@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.14.0*
+*Added in Bitcoin Cash Node 0.14.0*
 
 The `getmemoryinfo` RPC {{summary_getMemoryInfo}}
 
@@ -62,7 +62,7 @@ The `getmemoryinfo` RPC {{summary_getMemoryInfo}}
   
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.14.1*
+*Example from Bitcoin Cash Node 0.14.1*
 
 {% highlight bash %}
 bitcoin-cli getmemoryinfo

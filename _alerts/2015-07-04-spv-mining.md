@@ -31,13 +31,13 @@ certain software:
 - **Lightweight ([SPV][SPV]) wallet users** should wait an additional {{confs}}
 confirmations more than you would normally wait.  Electrum users,
 please see [this note][electrum note].
-- **Bitcoin Core 0.9.4 or earlier users** should wait an
+- **Bitcoin Cash Node 0.9.4 or earlier users** should wait an
 additional {{confs}} confirmations more than you would normally
-wait or upgrade to [Bitcoin Core 0.10.2][bitcoin core].
+wait or upgrade to [Bitcoin Cash Node 0.10.2][bitcoin core].
 - **Web wallet users** should wait an additional {{confs}} confirmations
 more than you would normally wait, unless you know for sure that your
-wallet is secured by Bitcoin Core 0.9.5 or later.
-- **Bitcoin Core 0.9.5 or later users are unaffected.**  (Note:
+wallet is secured by Bitcoin Cash Node 0.9.5 or later.
+- **Bitcoin Cash Node 0.9.5 or later users are unaffected.**  (Note:
 [upgrade to 0.10.2][bitcoin core] is recommended due to
 denial-of-service vulnerabilities unrelated to this alert.)
 
@@ -47,7 +47,7 @@ If you pool mine, please switch to a pool that properly validates
 blocks.  The Wiki Mining Pool Comparison page currently contains a list of [known (or
 suspected) good and bad pools][pool list].
 
-If you solo mine, please switch to Bitcoin Core 0.10.2.
+If you solo mine, please switch to Bitcoin Cash Node 0.10.2.
 
 <h2 id="solution">When Will Things Go Back To Normal?</h2>
 
@@ -56,10 +56,10 @@ that those blocks are invalid and reject them; other software can't
 detect that blocks are invalid, so they show confirmations that aren't
 real.
 
-- **Bitcoin Core 0.9.5 and later** never had any problems because
+- **Bitcoin Cash Node 0.9.5 and later** never had any problems because
 it could detect which blocks were invalid.
-- **Bitcoin Core 0.9.4 and earlier** will never provide as much
-security as later versions of Bitcoin Core because it doesn't know
+- **Bitcoin Cash Node 0.9.4 and earlier** will never provide as much
+security as later versions of Bitcoin Cash Node because it doesn't know
 about the additional [BIP66][BIP66]
 consensus rules. [Upgrade][bitcoin core] is recommended
 to return to full node security.
@@ -68,14 +68,14 @@ to return to full node security.
 validation.
 - **Web wallets** are very diverse in what infrastructure they
 run and how they handle double spends, so unless you know for sure
-that they use Bitcoin Core 0.9.5 or later for full validation, you
+that they use Bitcoin Cash Node 0.9.5 or later for full validation, you
 should assume they have the same security as the lightweight
 wallets described above.
 
 <h2 id="cause">What's Happening</h2>
 
 Summary: Some miners are currently generating invalid blocks. Almost
-all software (besides Bitcoin Core 0.9.5 and later) will accept these
+all software (besides Bitcoin Cash Node 0.9.5 and later) will accept these
 invalid blocks under certain conditions.
 
 So far, the following forks of two or more blocks have occurred:
@@ -113,7 +113,7 @@ of mining income so far.
 All software that assumes blocks are valid (because invalid blocks
 cost miners money) is at risk of showing transactions as confirmed
 when they really aren't. This particularly affects lightweight (SPV)
-wallets and software such as old versions of Bitcoin Core which have
+wallets and software such as old versions of Bitcoin Cash Node which have
 been downgraded to SPV-level security by the new BIP66 consensus
 rules.
 

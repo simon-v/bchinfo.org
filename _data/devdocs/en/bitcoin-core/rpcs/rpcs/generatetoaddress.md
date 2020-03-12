@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.13.0*
+*Added in Bitcoin Cash Node 0.13.0*
 
 *Requires wallet support.*
 
@@ -61,7 +61,7 @@ The `generatetoaddress` RPC {{summary_generateToAddress}}
   d: "The hashes of the headers of the blocks generated, as hex in RPC byte order"
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Using regtest mode, generate 2 blocks with maximal 500000 iterations:
 

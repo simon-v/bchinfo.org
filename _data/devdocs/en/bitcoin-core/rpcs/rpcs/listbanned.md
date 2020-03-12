@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.12.0*
+*Added in Bitcoin Cash Node 0.12.0*
 
 The `listbanned` RPC {{summary_listBanned}}
 
@@ -52,7 +52,7 @@ The `listbanned` RPC {{summary_listBanned}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.12.1*
+*Examples from Bitcoin Cash Node 0.12.1*
 
 The default (`false`):
 

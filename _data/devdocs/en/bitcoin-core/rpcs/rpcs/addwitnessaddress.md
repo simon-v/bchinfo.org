@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.13.0*
+*Added in Bitcoin Cash Node 0.13.0*
 
 *Requires wallet support. Requires an unlocked wallet or an unencrypted wallet.*
 
@@ -37,7 +37,7 @@ The `addwitnessaddress` RPC {{summary_addWitnessAddress}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli addwitnessaddress 1BRo7qrYHMPrzdBDzfjmzteBdYAyTMXW75

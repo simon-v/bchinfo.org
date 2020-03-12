@@ -19,7 +19,7 @@ The `help` RPC {{summary_help}}
 - n: "RPC"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "The name of the RPC to get help for.  If omitted, Bitcoin Core 0.9x will display an alphabetical list of commands; Bitcoin Core 0.10.0 will display a categorized list of commands"
+  d: "The name of the RPC to get help for.  If omitted, Bitcoin Cash Node 0.9x will display an alphabetical list of commands; Bitcoin Cash Node 0.10.0 will display a categorized list of commands"
 
 {% enditemplate %}
 
@@ -33,7 +33,7 @@ The `help` RPC {{summary_help}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Command to get help about the `help` RPC:
 

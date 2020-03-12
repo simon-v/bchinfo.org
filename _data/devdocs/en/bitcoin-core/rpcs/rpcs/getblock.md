@@ -70,12 +70,12 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 - n: "→<br>`strippedsize`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The size of this block in serialized block format excluding witness data, counted in bytes"  
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The size of this block in serialized block format excluding witness data, counted in bytes"  
   
 - n: "→<br>`weight`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>This block's weight as defined in BIP141"  
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>This block's weight as defined in BIP141"  
   
 - n: "→<br>`height`"
   t: "number (int)"
@@ -90,7 +90,7 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 - n: "→<br>`versionHex`"
   t: "string (hex)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>This block's version formatted in hexadecimal"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>This block's version formatted in hexadecimal"
   
 - n: "→<br>`merkleroot`"
   t: "string (hex)"
@@ -115,7 +115,7 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 - n: "→<br>`mediantime`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The median block time in Unix epoch time"  
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The median block time in Unix epoch time"  
 
 - n: "→<br>`nonce`"
   t: "number (int)"
@@ -175,12 +175,12 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 - n: "→<br>`strippedsize`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The size of this block in serialized block format excluding witness data, counted in bytes"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The size of this block in serialized block format excluding witness data, counted in bytes"
 
 - n: "→<br>`weight`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>This block's weight as defined in BIP141"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>This block's weight as defined in BIP141"
 
 - n: "→<br>`height`"
   t: "number (int)"
@@ -195,7 +195,7 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 - n: "→<br>`versionHex`"
   t: "string (hex)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>This block's version formatted in hexadecimal"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>This block's version formatted in hexadecimal"
 
 - n: "→<br>`merkleroot`"
   t: "string (hex)"
@@ -220,7 +220,7 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 - n: "→<br>`mediantime`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The median block time in Unix epoch time"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The median block time in Unix epoch time"
 
 - n: "→<br>`nonce`"
   t: "number (int)"
@@ -254,7 +254,7 @@ Prior to 0.15.0 release the verbose parameter was of boolean type. After the 0.1
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Get a block in raw hex:
 

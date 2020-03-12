@@ -13,15 +13,15 @@ http://opensource.org/licenses/MIT.
 {% autocrossref %}
 
 Creating transactions is something most Bitcoin applications do.
-This section describes how to use Bitcoin Core's RPC interface to
+This section describes how to use Bitcoin Cash Node's RPC interface to
 create transactions with various attributes.
 
-Your applications may use something besides Bitcoin Core to create
+Your applications may use something besides Bitcoin Cash Node to create
 transactions, but in any system, you will need to provide the same kinds
 of data to create transactions with the same attributes as those
 described below.
 
-In order to use this tutorial, you will need to setup [Bitcoin Core][core executable]
+In order to use this tutorial, you will need to setup [Bitcoin Cash Node][core executable]
 and create a regression test mode environment with 50 BTC in your test
 wallet.
 
@@ -37,7 +37,7 @@ wallet.
 
 {% autocrossref %}
 
-Bitcoin Core provides several RPCs which handle all the details of
+Bitcoin Cash Node provides several RPCs which handle all the details of
 spending, including creating change outputs and paying appropriate fees.
 Even advanced users should use these RPCs whenever possible to decrease
 the chance that satoshis will be lost by mistake.
@@ -141,7 +141,7 @@ second) and clear the shell variable.
 
 The raw transaction RPCs allow users to create custom transactions and
 delay broadcasting those transactions. However, mistakes made in raw
-transactions may not be detected by Bitcoin Core, and a number of raw
+transactions may not be detected by Bitcoin Cash Node, and a number of raw
 transaction users have permanently lost large numbers of satoshis, so
 please be careful using raw transactions on mainnet.
 
@@ -328,7 +328,7 @@ Use the `signrawtransaction` RPC to sign the transaction created by
 `createrawtransaction` and save the returned "hex" raw format signed
 transaction to a shell variable. 
 
-Even though the transaction is now complete, the Bitcoin Core node we're
+Even though the transaction is now complete, the Bitcoin Cash Node node we're
 connected to doesn't know anything about the transaction, nor does any
 other part of the network. We've created a spend, but we haven't
 actually spent anything because we could simply unset the
@@ -945,7 +945,7 @@ called m-of-n, and in this case we'll be using 2-of-3.
 Generate three new P2PKH addresses. P2PKH addresses cannot be used with
 the multisig redeem script created below. (Hashing each public key is
 unnecessary anyway---all the public keys are protected by a hash when
-the redeem script is hashed.) However, Bitcoin Core uses addresses as a
+the redeem script is hashed.) However, Bitcoin Cash Node uses addresses as a
 way to reference the underlying full (unhashed) public keys it knows
 about, so we get the three new addresses above in order to use their
 public keys.
@@ -1045,7 +1045,7 @@ you should also make a new backup.
 > UTXO_TXID=7278d7d030f042ebe633732b512bcb31fff14a697675a1fe1884[...]
 {% endhighlight %}
 
-Paying the P2SH multisig address with Bitcoin Core is as simple as
+Paying the P2SH multisig address with Bitcoin Cash Node is as simple as
 paying a more common P2PKH address. Here we use the same command (but
 different variable) we used in the Simple Spending subsection. As
 before, this command automatically selects an UTXO, creates a change

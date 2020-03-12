@@ -33,7 +33,7 @@ The `estimatefee` RPC {{summary_estimateFee}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.14.1*
+*Examples from Bitcoin Cash Node 0.14.1*
 
 {% highlight bash %}
 bitcoin-cli estimatefee 6

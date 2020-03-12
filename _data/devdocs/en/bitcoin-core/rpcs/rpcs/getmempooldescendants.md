@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.13.0*
+*Added in Bitcoin Cash Node 0.13.0*
 
 The `getmempooldescendants` RPC {{summary_getMemPoolDescendants}}
 
@@ -140,7 +140,7 @@ The `getmempooldescendants` RPC {{summary_getMemPoolDescendants}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 The default (`false`):
 

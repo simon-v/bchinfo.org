@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.12.0*
+*Added in Bitcoin Cash Node 0.12.0*
 
 The `abandontransaction` RPC {{summary_abandonTransaction}}
 
@@ -35,7 +35,7 @@ The `abandontransaction` RPC {{summary_abandonTransaction}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Abandons the transaction on your node.
 

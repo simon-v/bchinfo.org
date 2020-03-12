@@ -36,7 +36,7 @@ The `keypoolrefill` RPC {{summary_keyPoolRefill}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Generate one extra key than the default:
 

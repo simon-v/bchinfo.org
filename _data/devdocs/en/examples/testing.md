@@ -9,7 +9,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-Bitcoin Core provides testing tools designed to let developers
+Bitcoin Cash Node provides testing tools designed to let developers
 test their applications with reduced risks and limitations.
 
 {% endautocrossref %}
@@ -19,7 +19,7 @@ test their applications with reduced risks and limitations.
 
 {% autocrossref %}
 
-When run with no arguments, all Bitcoin Core programs default to Bitcoin's main
+When run with no arguments, all Bitcoin Cash Node programs default to Bitcoin's main
 network ([mainnet][/en/glossary/mainnet]{:#term-mainnet}{:.term}). However, for development,
 it's safer and cheaper to use Bitcoin's test network (testnet)
 where the satoshis spent have no real-world value. Testnet also relaxes some
@@ -41,7 +41,7 @@ community, so please don't abuse it.
 
 For situations
 where interaction with random peers and blocks is unnecessary or
-unwanted, Bitcoin Core's regression test mode (regtest mode) lets you
+unwanted, Bitcoin Cash Node's regression test mode (regtest mode) lets you
 instantly create a brand-new private block chain with the same basic
 rules as testnet---but one major difference: you choose when to create
 new blocks, so you have complete control over the environment.
@@ -64,10 +64,10 @@ Start `bitcoind` in regtest mode to create a private block chain.
 {% endautocrossref %}
 
 ~~~
-## Bitcoin Core 0.10.1 and earlier
+## Bitcoin Cash Node 0.10.1 and earlier
 bitcoin-cli -regtest setgenerate true 101
 
-## Bitcoin Core master (as of commit 48265f3)
+## Bitcoin Cash Node master (as of commit 48265f3)
 bitcoin-cli -regtest generate 101
 ~~~
 
@@ -93,11 +93,11 @@ bitcoin-cli -regtest getbalance
 
 Verify that we now have 50 bitcoins available to spend.
 
-You can now use Bitcoin Core RPCs prefixed with `bitcoin-cli -regtest`<!--noref-->.
+You can now use Bitcoin Cash Node RPCs prefixed with `bitcoin-cli -regtest`<!--noref-->.
 
 Regtest wallets and block chain state (chainstate) are saved in the `regtest`<!--noref-->
-subdirectory of the Bitcoin Core configuration directory. You can safely
-delete the `regtest`<!--noref--> subdirectory and restart Bitcoin Core to
+subdirectory of the Bitcoin Cash Node configuration directory. You can safely
+delete the `regtest`<!--noref--> subdirectory and restart Bitcoin Cash Node to
 start a new regtest. (See the [Developer Examples Introduction][devexamples] for default
 configuration directory locations on various operating systems. Always back up
 mainnet wallets before performing dangerous operations such as deleting.)

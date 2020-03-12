@@ -65,7 +65,7 @@ http://opensource.org/licenses/MIT.
 [URI QR Code]: /en/developer-guide#term-uri-qr-code "A QR code containing a bitcoin: URI"
 [v2 block]: /en/developer-reference#term-v2-block "The current version of Bitcoin blocks"
 [verified payments]: /en/developer-guide#verifying-payment "Payments which the receiver believes won't be double spent"
-[wallet support]: /en/developer-reference#term-wallet-support "A Bitcoin Core ./configure option that enables (default) or disables the wallet"
+[wallet support]: /en/developer-reference#term-wallet-support "A Bitcoin Cash Node ./configure option that enables (default) or disables the wallet"
 [prefilledtransaction]: /en/developer-reference#cmpctblock "A P2P Networking data structure used to represent a vector of a few transactions"
 [headerandshortids]: /en/developer-reference#cmpctblock "A P2P Networking data structure used to relay a block header, the short transactions IDs used for matching already-available transactions, and a select few transactions which a peer may be missing"
 [blocktransactionsrequest]: /en/developer-reference#getblocktxn "A P2P Networking data structure used to list transaction indexes in a block being requested by a peer"
@@ -321,17 +321,17 @@ http://opensource.org/licenses/MIT.
 [core github tag]: {{site.repo}}/labels/Core
 [BFGMiner]: https://github.com/luke-jr/bfgminer
 [Bitcoin beginners]: http://www.reddit.com/r/bitcoinbeginners
-[Bitcoin Core 0.1.6]: https://github.com/bitcoin/bitcoin/commit/cc0b4c3b62367a2aebe5fc1f4d0ed4b97e9c2ac9
-[Bitcoin Core 0.2.9]: https://github.com/bitcoin/bitcoin/commit/42605ce8bcc9bd01b86491c74fee14de77960868
-[Bitcoin Core 0.3.11]: https://github.com/bitcoin/bitcoin/commit/343328c6b8db85e58a1feea85f0d10e62967fa19
-[Bitcoin Core 0.3.15]: https://github.com/bitcoin/bitcoin/commit/c891967b6fcab2e8dc4ce0c787312b36c07efa4d
-[Bitcoin Core 0.3.18]: https://github.com/bitcoin/bitcoin/commit/82201801336f64ee77851b9eaab9383ee4e442f0
-[Bitcoin Core build unix]: https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
-[Bitcoin Core docs directory]: https://github.com/bitcoin/bitcoin/tree/master/doc
+[Bitcoin Cash Node 0.1.6]: https://github.com/bitcoin/bitcoin/commit/cc0b4c3b62367a2aebe5fc1f4d0ed4b97e9c2ac9
+[Bitcoin Cash Node 0.2.9]: https://github.com/bitcoin/bitcoin/commit/42605ce8bcc9bd01b86491c74fee14de77960868
+[Bitcoin Cash Node 0.3.11]: https://github.com/bitcoin/bitcoin/commit/343328c6b8db85e58a1feea85f0d10e62967fa19
+[Bitcoin Cash Node 0.3.15]: https://github.com/bitcoin/bitcoin/commit/c891967b6fcab2e8dc4ce0c787312b36c07efa4d
+[Bitcoin Cash Node 0.3.18]: https://github.com/bitcoin/bitcoin/commit/82201801336f64ee77851b9eaab9383ee4e442f0
+[Bitcoin Cash Node build unix]: https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
+[Bitcoin Cash Node docs directory]: https://github.com/bitcoin/bitcoin/tree/master/doc
 [bitcoin core fee drop commit]: https://github.com/bitcoin/bitcoin/commit/6a4c196dd64da2fd33dc7ae77a8cdd3e4cf0eff1
-[Bitcoin Core issue #2381]: https://github.com/bitcoin/bitcoin/issues/2381
-[Bitcoin Core master]: https://github.com/bitcoin/bitcoin
-[Bitcoin Core pull #4468]: https://github.com/bitcoin/bitcoin/pull/4468
+[Bitcoin Cash Node issue #2381]: https://github.com/bitcoin/bitcoin/issues/2381
+[Bitcoin Cash Node master]: https://github.com/bitcoin/bitcoin
+[Bitcoin Cash Node pull #4468]: https://github.com/bitcoin/bitcoin/pull/4468
 [Bitcoin core transifex]: https://www.transifex.com/projects/p/bitcoin/
 [Bitcoin reddit]: http://www.reddit.com/r/Bitcoin
 [Bitcoin reddit new]: http://www.reddit.com/r/Bitcoin/new
@@ -430,14 +430,14 @@ periodically to point to recent code. Last update: 2014-11-12 --> {% endcomment 
 [bcc contribute issues]: https://github.com/bitcoin/bitcoin/issues/
 [core executable]: https://bitcoincore.org/en/download/
 
-[Bitcoin Core 0.11.0]: https://bitcoincore.org/en/releases/0.11.0/
-[Bitcoin Core 0.11.1]: https://bitcoincore.org/en/releases/0.11.1/
-[Bitcoin Core 0.11.2]: https://bitcoincore.org/en/releases/0.11.2/
-[Bitcoin Core 0.12.0]: https://bitcoincore.org/en/releases/0.12.0/
-[Bitcoin Core 0.12.1]: https://bitcoincore.org/en/releases/0.12.1/
-[Bitcoin Core 0.13.0]: https://bitcoincore.org/en/releases/0.13.0/
-[Bitcoin Core 0.13.1]: https://bitcoincore.org/en/releases/0.13.1/
-[Bitcoin Core 0.13.2]: https://bitcoincore.org/en/releases/0.13.2/
-[Bitcoin Core 0.14.0]: https://bitcoincore.org/en/releases/0.14.0/
-[Bitcoin Core 0.14.1]: https://bitcoincore.org/en/releases/0.14.1/
-[Bitcoin Core 0.14.2]: https://bitcoincore.org/en/releases/0.14.2/
+[Bitcoin Cash Node 0.11.0]: https://bitcoincore.org/en/releases/0.11.0/
+[Bitcoin Cash Node 0.11.1]: https://bitcoincore.org/en/releases/0.11.1/
+[Bitcoin Cash Node 0.11.2]: https://bitcoincore.org/en/releases/0.11.2/
+[Bitcoin Cash Node 0.12.0]: https://bitcoincore.org/en/releases/0.12.0/
+[Bitcoin Cash Node 0.12.1]: https://bitcoincore.org/en/releases/0.12.1/
+[Bitcoin Cash Node 0.13.0]: https://bitcoincore.org/en/releases/0.13.0/
+[Bitcoin Cash Node 0.13.1]: https://bitcoincore.org/en/releases/0.13.1/
+[Bitcoin Cash Node 0.13.2]: https://bitcoincore.org/en/releases/0.13.2/
+[Bitcoin Cash Node 0.14.0]: https://bitcoincore.org/en/releases/0.14.0/
+[Bitcoin Cash Node 0.14.1]: https://bitcoincore.org/en/releases/0.14.1/
+[Bitcoin Cash Node 0.14.2]: https://bitcoincore.org/en/releases/0.14.2/

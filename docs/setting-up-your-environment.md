@@ -190,7 +190,7 @@ Plugins include:
 | events       | 5       | Google Maps    | Events page
 | glossary     | 30      | --             | Developer glossary
 | redirects    | 20      | --             | Redirects from old URLs
-| releases     | 10      | --             | Bitcoin Core release notes; Download
+| releases     | 10      | --             | Bitcoin Cash Node release notes; Download
 page
 | sitemap      | 10      | --             | /sitemap.xml
 

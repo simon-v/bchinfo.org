@@ -36,7 +36,7 @@ The `dumpwallet` RPC {{summary_dumpWallet}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Create a wallet dump and then print its first 10 lines.
 

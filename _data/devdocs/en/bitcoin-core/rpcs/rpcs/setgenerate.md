@@ -7,14 +7,14 @@ http://opensource.org/licenses/MIT.
 ##### SetGenerate
 {% include helpers/subhead-links.md %}
 
-{% assign summary_setGenerate="was removed in Bitcoin Core 0.13.0." %}
+{% assign summary_setGenerate="was removed in Bitcoin Cash Node 0.13.0." %}
 
 {% autocrossref %}
 
 *Requires wallet support.*
 
 The `setgenerate` RPC {{summary_setGenerate}} If you have an older
-version of Bitcoin Core, use `help setgenerate` RPC to get help. For testing, 
+version of Bitcoin Cash Node, use `help setgenerate` RPC to get help. For testing, 
 the generate call can still be used to mine a block, and the `generatetoaddress` RPC 
 call has been added to mine to a specific address. This works with wallet disabled.
 

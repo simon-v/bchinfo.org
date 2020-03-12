@@ -63,7 +63,7 @@ The `decodescript` RPC {{summary_decodeScript}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 A 2-of-3 P2SH multisig pubkey script:
 

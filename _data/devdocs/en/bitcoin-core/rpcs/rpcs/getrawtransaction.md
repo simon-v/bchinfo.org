@@ -7,7 +7,7 @@ http://opensource.org/licenses/MIT.
 ##### GetRawTransaction
 {% include helpers/subhead-links.md %}
 
-{% assign summary_getRawTransaction="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Core only stores complete transaction data for UTXOs and your own transactions, so the RPC may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Core startup settings." %}
+{% assign summary_getRawTransaction="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Cash Node only stores complete transaction data for UTXOs and your own transactions, so the RPC may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Cash Node startup settings." %}
 
 {% autocrossref %}
 
@@ -31,7 +31,7 @@ The `getrawtransaction` RPC {{summary_getRawTransaction}}
 - n: "Format"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "*Updated in Bitcoin Core 0.14.0*<br><br>Set to `false` (the default) to return the serialized transaction as hex.  Set to `true` to return a decoded transaction.  Before 0.14.0, use `0` and `1`, respectively"
+  d: "*Updated in Bitcoin Cash Node 0.14.0*<br><br>Set to `false` (the default) to return the serialized transaction as hex.  Set to `true` to return a decoded transaction.  Before 0.14.0, use `0` and `1`, respectively"
 
 {% enditemplate %}
 
@@ -41,7 +41,7 @@ The `getrawtransaction` RPC {{summary_getRawTransaction}}
 - n: "`result`"
   t: "null"
   p: "Required<br>(exactly 1)"
-  d: "If the transaction wasn't found, the result will be JSON `null`.  This can occur because the transaction doesn't exist in the block chain or memory pool, or because it isn't part of the transaction index.  See the Bitcoin Core `-help` entry for `-txindex`"
+  d: "If the transaction wasn't found, the result will be JSON `null`.  This can occur because the transaction doesn't exist in the block chain or memory pool, or because it isn't part of the transaction index.  See the Bitcoin Cash Node `-help` entry for `-txindex`"
 
 {% enditemplate %}
 
@@ -90,7 +90,7 @@ The `getrawtransaction` RPC {{summary_getRawTransaction}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.14.1*
+*Examples from Bitcoin Cash Node 0.14.1*
 
 A transaction in serialized transaction format:
 

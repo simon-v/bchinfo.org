@@ -14,7 +14,7 @@ active: false
 * **January 19, 2017**: The Final alert has been broadcast. This final alert essentially disables the alert system by overriding all
 alerts, preventing other alerts from being broadcast, and displays the static message "Alert Key Compromised". The Alert Key
 will be published in the coming months.
-* **March 8, 2017**: Bitcoin Core 0.14 released with hard-coded [final alert](https://bitcoincore.org/en/release/v0.14.0#final-alert).
+* **March 8, 2017**: Bitcoin Cash Node 0.14 released with hard-coded [final alert](https://bitcoincore.org/en/release/v0.14.0#final-alert).
 * **May 1, 2017**: Postpone release date of Alert key. Older clients may contain Alert handling code which is exploitable using the alert key, therefore the public release of the key has been temporarily postponed until considered safe.
 * **July 3, 2018**: The Alert key and Alert System vulnerabilities [have been disclosed](/en/posts/alert-key-and-vulnerabilities-disclosure).
 
@@ -35,7 +35,7 @@ to the Alert Key potentially falling into the hands of malicious actors who coul
 there is only one Alert key, it is not possible to prevent former developers from sending an alert nor is it possible
 to identify who sent an Alert.
 
-In addition, the Alert system is primarily Bitcoin Core specific. Many other wallets have their own systems in place but
+In addition, the Alert system is primarily Bitcoin Cash Node specific. Many other wallets have their own systems in place but
 still must have handling for the Alert system because it is network wide. Something specific for one software should
 not be imposed on the entire network.
 
@@ -46,7 +46,7 @@ events as users can easily get their information from any major Bitcoin news out
 
 Retirement of the Alert system consists of a pre-final alert (this alert) which will warn about the impending retirement, a
 final maximum sequence alert which cannot be overridden and displays a static "Alert Key Compromised" message, and the
-publishing of the Alert key itself. The final alert will be hard coded into Bitcoin Core 0.14 to ensure that all old nodes
+publishing of the Alert key itself. The final alert will be hard coded into Bitcoin Cash Node 0.14 to ensure that all old nodes
 receive the final alert.
 
 |Action|Description|Date|
@@ -61,8 +61,8 @@ receive the final alert.
 Most major Bitcoin wallets have already removed the alert system in the most recent releases. The software listed below
 are guaranteed to have removed/disabled the Alert system or allow you to disable it.
 
-* Bitcoin Core 0.12.1+
-* Bitcoin Core 0.10.3, 0.11.x, and 0.12.x can disable alerts with `-alerts=0`
+* Bitcoin Cash Node 0.12.1+
+* Bitcoin Cash Node 0.10.3, 0.11.x, and 0.12.x can disable alerts with `-alerts=0`
 * Armory 0.94.1+
 
 ## See also

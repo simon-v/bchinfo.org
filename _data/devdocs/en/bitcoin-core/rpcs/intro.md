@@ -9,32 +9,32 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-Bitcoin Core provides a remote procedure call (RPC) interface for various
+Bitcoin Cash Node provides a remote procedure call (RPC) interface for various
 administrative tasks, wallet operations, and queries about network and block
 chain data.
 
-If you start Bitcoin Core using `bitcoin-qt`, the RPC interface is disabled by
+If you start Bitcoin Cash Node using `bitcoin-qt`, the RPC interface is disabled by
 default. To enable it, set `server=1` in `bitcoin.conf` or supply the `-server`
-argument when invoking the program. If you start Bitcoin Core using `bitcoind`,
+argument when invoking the program. If you start Bitcoin Cash Node using `bitcoind`,
 the RPC interface is enabled by default.
 
 The interface requires the user to provide a password for authenticating RPC
 requests. This password can be set either using the `rpcpassword` property in
 `bitcoin.conf` or by supplying the `-rpcpassword` program argument. Optionally a
 username can be set using the `rpcuser` configuration value. See the [Examples
-Page][devexamples] for more information about setting Bitcoin Core configuration
+Page][devexamples] for more information about setting Bitcoin Cash Node configuration
 values.
 
 Open-source client libraries for the RPC interface are readily available in most
 modern programming languages, so you probably don't need to write your own from
-scratch. Bitcoin Core also ships with its own compiled C++ RPC client,
+scratch. Bitcoin Cash Node also ships with its own compiled C++ RPC client,
 `bitcoin-cli`, located in the `bin` directory alongside `bitcoind` and
 `bitcoin-qt`. The `bitcoin-cli` program can be used as a command-line interface
-(CLI) to Bitcoin Core or for making RPC calls from applications written in
+(CLI) to Bitcoin Cash Node or for making RPC calls from applications written in
 languages lacking a suitable native client. The remainder of this section
-describes the Bitcoin Core RPC protocol in detail.
+describes the Bitcoin Cash Node RPC protocol in detail.
 
-The Bitcoin Core RPC service listens for HTTP `POST` requests on port 8332 in
+The Bitcoin Cash Node RPC service listens for HTTP `POST` requests on port 8332 in
 mainnet mode or 18332 in testnet or regtest mode. The port number can be changed
 by setting `rpcport` in `bitcoin.conf`. By default the RPC service binds to your
 server's [localhost][Localhost] loopback
@@ -53,11 +53,11 @@ format:
 | Name                 | Type            | Presence                    | Description
 |----------------------|-----------------|-----------------------------|----------------
 | Request              | object          | Required<br>(exactly 1)     | The JSON-RPC<!--noref--> request object
-| → <br>`jsonrpc`      | number (real)   | Optional<br>(0 or 1)        | Version indicator for the JSON-RPC<!--noref--> request. Currently ignored by Bitcoin Core.
+| → <br>`jsonrpc`      | number (real)   | Optional<br>(0 or 1)        | Version indicator for the JSON-RPC<!--noref--> request. Currently ignored by Bitcoin Cash Node.
 | → <br>`id`           | string          | Optional<br>(0 or 1)        | An arbitrary string that will be returned with the response.  May be omitted or set to an empty string ("")
 | → <br>`method`       | string          | Required<br>(exactly 1)     | The RPC method name (e.g. `getblock`).  See the RPC section for a list of available methods.
 | → <br>`params`       | array           | Optional<br>(0 or 1)        | An array containing positional parameter values for the RPC.  May be an empty array or omitted for RPC calls that don't have any required parameters.
-| → <br>`params`       | object          | Optional<br>(0 or 1)        | Starting from Bitcoin Core 0.14.0 (replaces the `params` array above) An object containing named parameter values for the RPC.  May be an empty object or omitted for RPC calls that don't have any required parameters.
+| → <br>`params`       | object          | Optional<br>(0 or 1)        | Starting from Bitcoin Cash Node 0.14.0 (replaces the `params` array above) An object containing named parameter values for the RPC.  May be an empty object or omitted for RPC calls that don't have any required parameters.
 | → → <br>Parameter    | *any*           | Optional<br>(0 or more)       | A parameter.  May be any JSON type allowed by the particular RPC method
 {:.ntpd}
 
@@ -73,7 +73,7 @@ output<!--noref-->, we use the following conventions
 * Code-style names like `params` are literal strings that appear in the JSON
   object.
 
-* "Type" is the JSON data type and the specific Bitcoin Core type.
+* "Type" is the JSON data type and the specific Bitcoin Cash Node type.
 
 * "Presence" indicates whether or not a field must be present within its
    containing array or object. Note that an optional object may still have
@@ -133,7 +133,7 @@ The HTTP response data for this request would be:
 }
 {% endhighlight %}
 
-Note: In order to minimize its size, the raw JSON response from Bitcoin Core
+Note: In order to minimize its size, the raw JSON response from Bitcoin Cash Node
 doesn't include any extraneous whitespace characters. Here we've added
 whitespace to make the object more readable. Speaking of which, `bitcoin-cli`
 also transforms the raw response to make it more human-readable. It:
@@ -151,7 +151,7 @@ command would be simply:
 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 {% endhighlight %}
 
-If there's an error processing a request, Bitcoin Core sets the `result` field
+If there's an error processing a request, Bitcoin Cash Node sets the `result` field
 to `null` and provides information about the error in the  `error` field. For
 example, a request for the block hash at block height -1 would be met with the
 following response (again, whitespace added for clarity):
@@ -175,7 +175,7 @@ stream:
 error: {"code": -8, "message": "Block height out of range"}
 {% endhighlight %}
 
-Starting in Bitcoin Core version 0.7.0, the RPC interface supports request
+Starting in Bitcoin Cash Node version 0.7.0, the RPC interface supports request
 batching as described in [version 2.0 of the JSON-RPC
 specification][JSON-RPC request batching]. To initiate multiple
 RPC requests within a single HTTP request, a client can `POST` a JSON array

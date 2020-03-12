@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.14.0*
+*Added in Bitcoin Cash Node 0.14.0*
 
 *Requires wallet support.  Wallet must be unlocked.*
 
@@ -127,7 +127,7 @@ The `importmulti` RPC {{summary_importMulti}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.14.1*
+*Example from Bitcoin Cash Node 0.14.1*
 
 Import the address 1NL9w5fP9kX2D9ToNZPxaiwFJCngNYEYJo (giving it a label and scanning the entire block chain) and the scriptPubKey 76a9149e857da0a5b397559c78c98c9d3f7f655d19c68688ac (giving a specific timestamp and label):
 

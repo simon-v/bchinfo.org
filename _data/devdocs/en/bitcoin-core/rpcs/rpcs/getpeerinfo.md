@@ -76,7 +76,7 @@ The `getpeerinfo` RPC {{summary_getPeerInfo}}
 - n: "→ →<br>`timeoffset`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The time offset in seconds"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The time offset in seconds"
 
 - n: "→ →<br>`pingtime`"
   t: "number (real)"
@@ -86,7 +86,7 @@ The `getpeerinfo` RPC {{summary_getPeerInfo}}
 - n: "→ →<br>`minping`"
   t: "number (real)"
   p: "Optional<br>(0 or 1)"
-  d: "*Updated in Bitcoin Core 0.13.0*<br><br>The minimum observed ping time (if any at all)"
+  d: "*Updated in Bitcoin Cash Node 0.13.0*<br><br>The minimum observed ping time (if any at all)"
 
 - n: "→ →<br>`pingwait`"
   t: "number (real)"
@@ -116,7 +116,7 @@ The `getpeerinfo` RPC {{summary_getPeerInfo}}
 - n: "→ →<br>`banscore`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "The ban score we've assigned the node based on any misbehavior it's made.  By default, Bitcoin Core disconnects when the ban score reaches `100`"
+  d: "The ban score we've assigned the node based on any misbehavior it's made.  By default, Bitcoin Cash Node disconnects when the ban score reaches `100`"
 
 - n: "→ →<br>`synced_headers`"
   t: "number (int)"
@@ -146,7 +146,7 @@ The `getpeerinfo` RPC {{summary_getPeerInfo}}
 - n: "→ →<br>`bytessent_per_msg`"
   t: "string : <br>object"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>Information about total sent bytes aggregated by message type"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>Information about total sent bytes aggregated by message type"
   
 - n: "→ → →<br>Message Type"
   t: "number (int)"
@@ -156,7 +156,7 @@ The `getpeerinfo` RPC {{summary_getPeerInfo}}
 - n: "→ →<br>`bytesrecv_per_msg`"
   t: "string : <br>object"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>Information about total received bytes aggregated by message type"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>Information about total received bytes aggregated by message type"
   
 - n: "→ → →<br>Message Type"
   t: "number (int)"
@@ -166,7 +166,7 @@ The `getpeerinfo` RPC {{summary_getPeerInfo}}
  
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli getpeerinfo

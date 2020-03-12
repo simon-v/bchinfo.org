@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.13.0*
+*Added in Bitcoin Cash Node 0.13.0*
 
 The `getmempoolentry` RPC {{summary_getMemPoolEntry}}
 
@@ -110,7 +110,7 @@ The `getmempoolentry` RPC {{summary_getMemPoolEntry}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli getmempoolentry 52273e0ce6cf3452932cfbc1c517c0ce1af1\

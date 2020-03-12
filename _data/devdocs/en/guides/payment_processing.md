@@ -85,7 +85,7 @@ fluctuate a significant amount before payment is received.
 
 Before requesting payment, your application must create a Bitcoin
 address, or acquire an address from another program such as
-Bitcoin Core.  Bitcoin addresses are described in detail in the
+Bitcoin Cash Node.  Bitcoin addresses are described in detail in the
 [Transactions](#transactions) section. Also described in that section
 are two important reasons to [avoid using an address more than
 once](#avoiding-key-reuse)---but a third reason applies especially to
@@ -255,7 +255,7 @@ displayed on high-resolution screens.
 
 {% autocrossref %}
 
-Bitcoin Core 0.9 supports the new [payment protocol][/en/glossary/payment-protocol]{:#term-payment-protocol}{:.term}. The payment protocol
+Bitcoin Cash Node 0.9 supports the new [payment protocol][/en/glossary/payment-protocol]{:#term-payment-protocol}{:.term}. The payment protocol
 adds many important features to payment requests:
 
 - Supports X.509 certificates and SSL encryption to verify receivers' identity
@@ -362,7 +362,7 @@ server's X.509 SSL certificate.  (The Payment Protocol has been designed
 to allow other signing methods in the future.)  Bob's server sends the
 payment request to Charlie's wallet in the reply to the HTTP GET.
 
-![Bitcoin Core Showing Validated Payment Request](/img/dev/en-btcc-payment-request.png)
+![Bitcoin Cash Node Showing Validated Payment Request](/img/dev/en-btcc-payment-request.png)
 
 Charlie's wallet receives the PaymentRequest message, checks its signature, and
 then displays the details from the PaymentDetails message to Charlie. Charlie
@@ -463,7 +463,7 @@ somewhat arbitrary, software handling high-value transactions, or otherwise at
 risk for fraud, should wait for at least six confirmations before treating a 
 payment as accepted.
 
-Bitcoin Core provides several RPCs which can provide your program with the 
+Bitcoin Cash Node provides several RPCs which can provide your program with the 
 confirmation score for transactions in your wallet or arbitrary transactions. 
 For example, the `listunspent` RPC provides an array of every satoshi you can 
 spend along with its confirmation score.
@@ -681,7 +681,7 @@ assuming the attacker has 30% of the total network hashing power:
 
 FIFO does have a small advantage when it comes to transaction fees, as
 older outputs may be eligible for inclusion in the 50,000 bytes set
-aside for no-fee-required high-priority transactions by miners running the default Bitcoin Core
+aside for no-fee-required high-priority transactions by miners running the default Bitcoin Cash Node
 codebase.  However, with transaction fees being so low, this is not a
 significant advantage.
 

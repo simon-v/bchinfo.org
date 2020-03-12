@@ -48,11 +48,11 @@ The `listaddressgroupings` RPC {{summary_listAddressGroupings}}
 - n: "→ → →<br>Account"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The account the address belongs to, if any.  This field will not be returned for change addresses.  The default account is an empty string (\"\")"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The account the address belongs to, if any.  This field will not be returned for change addresses.  The default account is an empty string (\"\")"
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli -testnet listaddressgroupings

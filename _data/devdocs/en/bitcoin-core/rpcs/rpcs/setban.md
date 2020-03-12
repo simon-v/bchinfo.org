@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.12.0*
+*Added in Bitcoin Cash Node 0.12.0*
 
 The `setban` RPC {{summary_setBan}}
 
@@ -65,7 +65,7 @@ The `setban` RPC {{summary_setBan}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.12.1*
+*Example from Bitcoin Cash Node 0.12.1*
 
 Ban the following node.
 

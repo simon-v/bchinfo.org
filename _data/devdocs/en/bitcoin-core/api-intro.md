@@ -4,7 +4,7 @@ http://opensource.org/licenses/MIT.
 {% endcomment %}
 {% assign filename="_data/devdocs/en/bitcoin-core/api-intro.md" %}
 
-## Bitcoin Core APIs
+## Bitcoin Cash Node APIs
 {% include helpers/subhead-links.md %}
 
 ### Hash Byte Order
@@ -12,7 +12,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-Bitcoin Core RPCs accept and return the byte-wise reverse of computed
+Bitcoin Cash Node RPCs accept and return the byte-wise reverse of computed
 SHA-256 hash values. For example, the Unix `sha256sum` command displays the
 SHA256(SHA256()) hash of mainnet block 300,000's header as:
 
@@ -26,7 +26,7 @@ previous-header-hash part of block 300,001's header:
 0000000000000</b>ab0aaa377ca3f49b1545e2ae6b0667a08f42e72d8c24ae\
 237140e28f14f3bb7c6bcc6d536c890019edd83ccf</pre>
 
-However, Bitcoin Core's RPCs use the byte-wise reverse for hashes, so if you
+However, Bitcoin Cash Node's RPCs use the byte-wise reverse for hashes, so if you
 want to get information about block 300,000 using the `getblock` RPC,
 you need to reverse the requested hash:
 
@@ -37,7 +37,7 @@ you need to reverse the requested hash:
 data, which is why the reversed string looks somewhat mangled.)
 
 The rationale for the reversal is unknown, but it likely stems from
-Bitcoin Core's use of hashes (which are byte arrays in C++) as integers
+Bitcoin Cash Node's use of hashes (which are byte arrays in C++) as integers
 for the purpose of determining whether the hash is below the network
 target. Whatever the reason for reversing header hashes, the reversal
 also extends to other hashes used in RPCs, such as TXIDs and merkle

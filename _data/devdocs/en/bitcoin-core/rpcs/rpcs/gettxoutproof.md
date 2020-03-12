@@ -53,7 +53,7 @@ specify the block in which the transaction is included in manually (by block hea
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.11.0*
+*Example from Bitcoin Cash Node 0.11.0*
 
 Get the hex-encoded proof that "txid" was included in block 0000000000000000140e84bf183d8d5207d65fbfae596bdf48f684d13d951847:
 

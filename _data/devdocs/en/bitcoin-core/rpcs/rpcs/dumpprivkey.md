@@ -36,7 +36,7 @@ The `dumpprivkey` RPC {{summary_dumpPrivKey}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli -testnet dumpprivkey moQR7i8XM4rSGoNwEsw3h4YEuduuP6mxw7

@@ -64,7 +64,7 @@ The `getrawmempool` RPC {{summary_getRawMemPool}}
 - n: "→ →<br>`modifiedfee`"
   t: "number (bitcoins)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The transaction fee with fee deltas used for mining priority in decimal bitcoins"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The transaction fee with fee deltas used for mining priority in decimal bitcoins"
 
 - n: "→ →<br>`time`"
   t: "number (int)"
@@ -79,32 +79,32 @@ The `getrawmempool` RPC {{summary_getRawMemPool}}
 - n: "→ →<br>`descendantcount`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The number of in-mempool descendant transactions (including this one)"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The number of in-mempool descendant transactions (including this one)"
 
 - n: "→ →<br>`descendantsize`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The size of in-mempool descendants (including this one)"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The size of in-mempool descendants (including this one)"
 
 - n: "→ →<br>`descendantfees`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The modified fees (see `modifiedfee` above) of in-mempool descendants (including this one)"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The modified fees (see `modifiedfee` above) of in-mempool descendants (including this one)"
 
 - n: "→ →<br>`ancestorcount`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The number of in-mempool ancestor transactions (including this one)"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The number of in-mempool ancestor transactions (including this one)"
 
 - n: "→ →<br>`ancestorsize`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The size of in-mempool ancestors (including this one)"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The size of in-mempool ancestors (including this one)"
 
 - n: "→ →<br>`ancestorfees`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The modified fees (see `modifiedfee` above) of in-mempool ancestors (including this one)"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The modified fees (see `modifiedfee` above) of in-mempool ancestors (including this one)"
 
 - n: "→ →<br>`depends`"
   t: "array"
@@ -118,7 +118,7 @@ The `getrawmempool` RPC {{summary_getRawMemPool}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 The default (`false`):
 

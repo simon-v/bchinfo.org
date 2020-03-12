@@ -12,11 +12,11 @@ http://opensource.org/licenses/MIT.
 
 {% assign summary_estimatePriority="estimates the priority (coin age) that a transaction needs in order to be included within a certain number of blocks as a free high-priority transaction." %}
 
-*Added in Bitcoin Core 0.10.0.*
+*Added in Bitcoin Cash Node 0.10.0.*
 
 The `estimatepriority` RPC {{summary_estimatePriority}} This should not to be confused with the `prioritisetransaction` RPC which will remain supported for adding fee deltas to transactions.
 
-{{WARNING}} `estimatepriority` has been [removed](https://github.com/bitcoin/bitcoin/commit/fe282acd7604b5265762b24e531bdf1ebb1f009b) and will no longer be available in the next major release (planned for Bitcoin Core 0.15.0).  Use the RPC listed in the "See Also" subsection below instead.
+{{WARNING}} `estimatepriority` has been [removed](https://github.com/bitcoin/bitcoin/commit/fe282acd7604b5265762b24e531bdf1ebb1f009b) and will no longer be available in the next major release (planned for Bitcoin Cash Node 0.15.0).  Use the RPC listed in the "See Also" subsection below instead.
 
 Transaction priority is relative to a transaction's byte size.
 
@@ -26,7 +26,7 @@ Transaction priority is relative to a transaction's byte size.
 - n: "Blocks"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "Deprecated: will be removed in a later version of Bitcoin Core<br><br>The maximum number of blocks a transaction should have to wait before it is predicted to be included in a block based purely on its priority"
+  d: "Deprecated: will be removed in a later version of Bitcoin Cash Node<br><br>The maximum number of blocks a transaction should have to wait before it is predicted to be included in a block based purely on its priority"
 
 {% enditemplate %}
 
@@ -40,7 +40,7 @@ Transaction priority is relative to a transaction's byte size.
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.10.0*
+*Examples from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli estimatepriority 6

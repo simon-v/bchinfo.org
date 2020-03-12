@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.14.0*
+*Added in Bitcoin Cash Node 0.14.0*
 
 The `pruneblockchain` RPC {{summary_pruneBlockChain}} The `-prune` option needs to be enabled (disabled by default).
 
@@ -35,7 +35,7 @@ The `pruneblockchain` RPC {{summary_pruneBlockChain}} The `-prune` option needs 
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.14.1*
+*Examples from Bitcoin Cash Node 0.14.1*
 
 {% highlight bash %}
 bitcoin-cli pruneblockchain 413555

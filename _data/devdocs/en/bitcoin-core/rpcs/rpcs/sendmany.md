@@ -22,7 +22,7 @@ The `sendmany` RPC {{summary_sendMany}}
 - n: "From Account"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The name of the account from which the bitcoins should be spent.  Use an empty string (\"\") for the default account. Bitcoin Core will ensure the account has sufficient bitcoins to pay the total amount in the *outputs* field described below (but the transaction fee paid is not included in the calculation, so an account can spend a total of its balance plus the transaction fee)"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The name of the account from which the bitcoins should be spent.  Use an empty string (\"\") for the default account. Bitcoin Cash Node will ensure the account has sufficient bitcoins to pay the total amount in the *outputs* field described below (but the transaction fee paid is not included in the calculation, so an account can spend a total of its balance plus the transaction fee)"
 
 {% enditemplate %}
 
@@ -79,7 +79,7 @@ The `sendmany` RPC {{summary_sendMany}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 From the account *test1*, send 0.1 bitcoins to the first address and 0.2
 bitcoins to the second address, with a comment of "Example Transaction".

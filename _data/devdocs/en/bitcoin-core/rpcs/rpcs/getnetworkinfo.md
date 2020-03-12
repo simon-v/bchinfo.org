@@ -26,7 +26,7 @@ The `getnetworkinfo` RPC {{summary_getNetworkInfo}}
 - n: "→<br>`version`"
   t: "number"
   p: "Required<br>(exactly 1)"
-  d: "This node's version of Bitcoin Core in its internal integer format.  For example, Bitcoin Core 0.9.2 has the integer version number 90200"
+  d: "This node's version of Bitcoin Cash Node in its internal integer format.  For example, Bitcoin Cash Node 0.9.2 has the integer version number 90200"
 
 - n: "→<br>`subversion`"
   t: "string"
@@ -46,7 +46,7 @@ The `getnetworkinfo` RPC {{summary_getNetworkInfo}}
 - n: "→<br>`localrelay`"
   t: "bool"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The services supported by this node as advertised in its `version` message"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The services supported by this node as advertised in its `version` message"
 
 - n: "→<br>`timeoffset`"
   t: "number (int)"
@@ -76,7 +76,7 @@ The `getnetworkinfo` RPC {{summary_getNetworkInfo}}
 - n: "→ → →<br>`limited`"
   t: "bool"
   p: "Required<br>(exactly 1)"
-  d: "Set to `true` if only connections to this network are allowed according to the `-onlynet` Bitcoin Core command-line/configuration-file parameter.  Otherwise set to `false`"
+  d: "Set to `true` if only connections to this network are allowed according to the `-onlynet` Bitcoin Cash Node command-line/configuration-file parameter.  Otherwise set to `false`"
 
 - n: "→ → →<br>`reachable`"
   t: "bool"
@@ -91,7 +91,7 @@ The `getnetworkinfo` RPC {{summary_getNetworkInfo}}
 - n: "→ → →<br>`proxy_randomize_credentials`"
   t: "bool"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.11.0*<br><br>Set to `true` if randomized credentials are set for this proxy. Otherwise set to `false`"
+  d: "*Added in Bitcoin Cash Node 0.11.0*<br><br>Set to `true` if randomized credentials are set for this proxy. Otherwise set to `false`"
   
 - n: "→<br>`relayfee`"
   t: "number (bitcoins)"
@@ -126,11 +126,11 @@ The `getnetworkinfo` RPC {{summary_getNetworkInfo}}
 - n: "→<br>`warnings`"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.11.0*<br><br>A plain-text description of any network warnings. If there are no warnings, an empty string will be returned. "
+  d: "*Added in Bitcoin Cash Node 0.11.0*<br><br>A plain-text description of any network warnings. If there are no warnings, an empty string will be returned. "
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli getnetworkinfo

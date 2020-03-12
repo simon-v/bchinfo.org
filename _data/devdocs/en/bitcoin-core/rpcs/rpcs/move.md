@@ -83,7 +83,7 @@ account a balance that may exceed the number of bitcoins in the wallet
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Move 0.1 bitcoins from "doc test" to "test1", giving the transaction the
 comment "Example move":

@@ -33,7 +33,7 @@ The `verifytxoutproof` RPC {{summary_verifyTxOutProof}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.11.0*
+*Example from Bitcoin Cash Node 0.11.0*
 
 Verify a proof:
 

@@ -7,7 +7,7 @@ http://opensource.org/licenses/MIT.
 ##### SubmitBlock
 {% include helpers/subhead-links.md %}
 
-{% assign summary_submitBlock="accepts a block, verifies it is a valid addition to the block chain, and broadcasts it to the network. Extra parameters are ignored by Bitcoin Core but may be used by mining pools or other programs." %}
+{% assign summary_submitBlock="accepts a block, verifies it is a valid addition to the block chain, and broadcasts it to the network. Extra parameters are ignored by Bitcoin Cash Node but may be used by mining pools or other programs." %}
 
 {% autocrossref %}
 
@@ -29,7 +29,7 @@ The `submitblock` RPC {{summary_submitBlock}}
 - n: "Parameters"
   t: "object"
   p: "Optional<br>(0 or 1)"
-  d: "A JSON object containing extra parameters.  Not used directly by Bitcoin Core and also not broadcast to the network.  This is available for use by mining pools and other software.  A common parameter is a `workid` string"
+  d: "A JSON object containing extra parameters.  Not used directly by Bitcoin Cash Node and also not broadcast to the network.  This is available for use by mining pools and other software.  A common parameter is a `workid` string"
 
 {% enditemplate %}
 
@@ -43,7 +43,7 @@ The `submitblock` RPC {{summary_submitBlock}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Submit the following block with the workid, "test".
 

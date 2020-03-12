@@ -48,7 +48,7 @@ Core.  Use the RPCs listed in the See Also subsection below instead.
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Put the address indicated below in the "doc test" account.
 

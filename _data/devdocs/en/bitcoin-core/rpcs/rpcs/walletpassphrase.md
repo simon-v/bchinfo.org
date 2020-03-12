@@ -49,7 +49,7 @@ value of the passphrase parameter).
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Unlock the wallet for 10 minutes (the passphrase is "test"):
 

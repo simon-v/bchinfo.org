@@ -367,17 +367,17 @@ default in the widely-used OpenSSL library.
 
 Because they're easy to use, and because they reduce almost by half
 the block chain space used to store public keys for every spent output,
-compressed public keys are the default in Bitcoin Core and are the
+compressed public keys are the default in Bitcoin Cash Node and are the
 recommended default for all Bitcoin software.
 
-However, Bitcoin Core prior to 0.6 used uncompressed keys.  This creates
+However, Bitcoin Cash Node prior to 0.6 used uncompressed keys.  This creates
 a few complications, as the hashed form of an uncompressed key is
 different than the hashed form of a compressed key, so the same key
 works with two different P2PKH addresses.   This also means that the key
 must be submitted in the correct format in the signature script so it
 matches the hash in the previous output's pubkey script.
 
-For this reason, Bitcoin Core uses several different identifier bytes to
+For this reason, Bitcoin Cash Node uses several different identifier bytes to
 help programs identify how keys should be used:
 
 * Private keys meant to be used with compressed public keys have 0x01
@@ -674,7 +674,7 @@ For implementation details, please see BIP39.
 
 {% autocrossref %}
 
-Loose-Key wallets, also called "Just a Bunch Of Keys (JBOK)", are a deprecated form of wallet that originated from the Bitcoin Core client wallet. The Bitcoin Core client wallet would create 100 private key/public key pairs automatically via a Pseudo-Random-Number Generator (PRNG) for later use.
+Loose-Key wallets, also called "Just a Bunch Of Keys (JBOK)", are a deprecated form of wallet that originated from the Bitcoin Cash Node client wallet. The Bitcoin Cash Node client wallet would create 100 private key/public key pairs automatically via a Pseudo-Random-Number Generator (PRNG) for later use.
 
 These unused private keys are stored in a virtual "key pool", with new
 keys being generated whenever a previously-generated key was used,

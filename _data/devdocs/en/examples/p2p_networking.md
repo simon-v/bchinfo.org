@@ -147,7 +147,7 @@ larger filter size as computed earlier.)
 
 Note: for a more optimized Python implementation with fewer external
 dependencies, see [python-bitcoinlib's][python-bitcoinlib] bloom filter
-module which is based directly on Bitcoin Core's C++ implementation.
+module which is based directly on Bitcoin Cash Node's C++ implementation.
 
 Using the `filterload` message format, the complete filter created above 
 would be the binary form of the annotated hexdump shown below:
@@ -345,7 +345,7 @@ for practically any platform. For example, with the original netcat and
 using hexdump (`hd`) to display the output:
 
 {% highlight bash %}
-## Connect to the Bitcoin Core peer running on localhost
+## Connect to the Bitcoin Cash Node peer running on localhost
 python get-merkle.py | nc localhost 8333 | hd
 {% endhighlight %}
 

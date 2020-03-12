@@ -336,7 +336,7 @@ Blocks which are not part of the most difficult (best) block chain shall be call
 
 #### Standard Transaction & IsStandard()
 
-A transaction which passes the Bitcoin Core IsStandard() test, indicating that it will be relayed or mined by default peers and miners.  Mainly Pay-To-PubkeyHash (P2PH) and Pay-To-ScriptHash (P2SH) transaction types.  Does not include genesis transactions.
+A transaction which passes the Bitcoin Cash Node IsStandard() test, indicating that it will be relayed or mined by default peers and miners.  Mainly Pay-To-PubkeyHash (P2PH) and Pay-To-ScriptHash (P2SH) transaction types.  Does not include genesis transactions.
 IsStandard() always begins with a capital I, and always includes the
 trailing parenthensis.
 
@@ -373,9 +373,9 @@ backup before running it.)
     * <subtask>
 ~~~
 
-* [x] @harding 2014-10-26: Expand P2P Networking & Operating Modes sections. (DevRef sections expanded; work on DevGuide sections delayed until changes for Bitcoin Core 0.10 implemented.)
+* [x] @harding 2014-10-26: Expand P2P Networking & Operating Modes sections. (DevRef sections expanded; work on DevGuide sections delayed until changes for Bitcoin Cash Node 0.10 implemented.)
 
-#### Changes For Bitcoin Core 0.10
+#### Changes For Bitcoin Cash Node 0.10
 
 *Expected release date: ~January 2015.*
 

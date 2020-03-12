@@ -53,7 +53,7 @@ The `verifymessage` RPC {{summary_verifyMessage}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Check the signature on the message created in the example for
 `signmessage`:

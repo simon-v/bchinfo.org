@@ -19,7 +19,7 @@ have the same blocks in their block chain, they are considered to be in
 [consensus][/en/glossary/consensus]{:#term-consensus}{:.term}. The validation rules these
 nodes follow to maintain consensus are called [consensus
 rules][/en/glossary/consensus-rules]{:#term-consensus-rules}{:.term}. This section describes many of
-the consensus rules used by Bitcoin Core.
+the consensus rules used by Bitcoin Cash Node.
 
 {% endautocrossref %}
 
@@ -130,7 +130,7 @@ of the first and last of those last 2,016 blocks. The ideal value is
   difficulty value is decreased proportionally (by as much as 75%) for
   the same reason.
 
-(Note: an off-by-one error in the Bitcoin Core implementation causes the
+(Note: an off-by-one error in the Bitcoin Cash Node implementation causes the
 difficulty to be updated every 2,01*6* blocks using timestamps from only
 2,01*5* blocks, creating a slight skew.)
 
@@ -359,7 +359,7 @@ provide incomplete information.
 
 <!-- paragraph below based on src/main.cpp CheckForkWarningConditions() -->
 
-Bitcoin Core includes code that detects a hard fork by looking at block
+Bitcoin Cash Node includes code that detects a hard fork by looking at block
 chain proof of work. If a non-upgraded node receives block chain headers
 demonstrating at least six blocks more proof of work than the best chain
 it considers valid, the node reports a warning in the `getnetworkinfo` RPC
@@ -370,7 +370,7 @@ best block chain.
 Full nodes can also check block and transaction version numbers. If the
 block or transaction version numbers seen in several recent blocks are
 higher than the version numbers the node uses, it can assume it doesn't
-use the current consensus rules. Bitcoin Core reports this situation 
+use the current consensus rules. Bitcoin Cash Node reports this situation 
 through the `getnetworkinfo` RPC and `-alertnotify` command if set.
 
 In either case, block and transaction data should not be relied upon 
