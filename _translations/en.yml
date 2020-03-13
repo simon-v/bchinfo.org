@@ -689,12 +689,11 @@ en:
     lastchange: "Last amendment"
     lastchangetxt1: "This disclaimer was amended for the last time on"
   press:
-    title: "Press - Bitcoin"
+    title: "Press - Bitcoin Cash"
     pagetitle: "Press center"
     summary: "Find interviewees, answers and high quality press materials."
     volunteer: "Interviewees"
-    volunteernonprofit: "Communicate with <a href=\"https://www.bitgivefoundation.org\">BitGive</a>, the <a href=\"https://bitcoincore.org/en/contact\">Bitcoin Cash Node Project</a> or local <a href=\"#community##[community.non-profit]\">non-profit organizations</a>."
-    faqmore: "To learn more about Bitcoin, please visit the complete <a href=\"/en/faq\">FAQ</a> or the <a href=\"https://en.bitcoin.it/wiki/Help:FAQ\">Bitcoin Cash Wiki</a>."
+
   privacy:
     title: "Privacy Policy - Bitcoin"
     pagetitle: "Privacy Policy"
