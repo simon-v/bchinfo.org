@@ -5,7 +5,7 @@ en:
     pagedesc: "{{site.name}} is dedicated to help Bitcoin Cash to develop in a sustainable way."
     own: "Who owns {{site.name}}?"
     owntxt: "{{site.name}} was originally registered and owned by Bitcoin's first two developers, <a href=\"https://en.bitcoin.it/wiki/Satoshi_Nakamoto\">Satoshi Nakamoto</a> and <a href=\"https://en.bitcoin.it/wiki/Sirius\">Martti Malmi</a>.  When Nakamoto left the project, he gave ownership of the domain to additional people, separate from the Bitcoin Cash developers, to spread responsibility and prevent any one person or group from easily gaining control over the Bitcoin Cash project."
-    owntxt2: "From 2011 to 2013, the site was primarily used for releasing new versions of the software now called Bitcoin Cash Core. In 2013, the site was redesigned into its current form, adding numerous pages, listing additional Bitcoin Cash software, and creating the translation system.  Developer documentation was added in 2014."
+    owntxt2: "From 2011 to 2013, the site was primarily used for releasing new versions of the software now called Bitcoin Cash Node. In 2013, the site was redesigned into its current form, adding numerous pages, listing additional Bitcoin Cash software, and creating the translation system.  Developer documentation was added in 2014."
     owntxt3: "Today the site is an independent open source project with contributors from around the world. Final publication authority is held by the co-owners, but all regular activity is organized through the public <a href=\"{{site.repo}}#working-with-github\">pull request process</a> and managed by the site co-maintainers."
     owntxt4: "{{site.name}} is not Bitcoin's official website. Just like nobody owns the email technology, nobody owns the Bitcoin Cash network. As such, nobody can speak with authority in the name of Bitcoin."
     control: "Then... who controls Bitcoin?"
@@ -179,19 +179,12 @@ en:
     walletcatdesktop: "Desktop"
     walletcathardware: "Hardware"
     walletcatweb: "Web"
-    walletbitcoincore: "Bitcoin Cash Core is a full Bitcoin Cash client and builds the backbone of the network. It offers high levels of security, privacy, and stability. However, it has fewer features and it takes a lot of space and memory."
-    walletbitcoinknots: "Bitcoin Cash Knots is a full Bitcoin Cash client and builds the backbone of the network. It offers high levels of security, privacy, and stability. It includes more advanced features than Bitcoin Cash Core, but they are not as well-tested. It uses a lot of space and memory."
-    walletarmory: "Armory is an advanced Bitcoin Cash client that expands its features for Bitcoin Cash power users. It offers many backup and encryption features, and it allows secure cold-storage on offline computers."
-    walletelectrum: "Electrum's focus is speed and simplicity, with low resource usage. It uses remote servers that handle the most complicated parts of the Bitcoin Cash system, and it allows you to recover your wallet from a secret phrase."
-    walletmsigna: "mSIGNA is an advanced yet easy-to-use wallet featuring speed and simplicity, enterprise-level scalability, and strong security. It supports BIP32, multisignature transactions, offline storage, multidevice synchronization, and encrypted electronic and paper backups."
-    walletbitcoinwallet: "Bitcoin Cash Wallet is easy to use and reliable, while also being secure and fast. Its vision is de-centralization and zero trust; no central service is needed for Bitcoin-related operations. The app is a good choice for non-technical people."
-    walletairbitzwallet: "Airbitz is a mobile Bitcoin Cash Wallet making high levels of privacy, security, and decentralization very familiar and usable to the masses. Airbitz wallets are always automatically encrypted, backed up, and even function when Airbitz servers go down."
+    walletcrescentcash: "Crescent Cash is a Bitcoin Cash wallet designed to be as simple as possible for the average user by utilizing the <a href=\"https://cashaccount.info\">Cash Account</a> alias system for addresses."
+    walletelectroncash: "Electron Cash's focus is speed and simplicity, with low resource usage. It uses remote servers that handle the most complicated parts of the Bitcoin Cash system, and it allows you to recover your wallet from a secret phrase."
+    walletbitcoincom: "The Bitcoin.com Wallet is the fastest Bitcoin wallet ever created. Validation is handled remotely, but only you control your keys."
     walletedgewallet: "Edge is a Segwit compatible, mobile Bitcoin Cash Wallet making high levels of privacy, security, and decentralization very familiar and usable to the masses. Edge wallets are always automatically encrypted, backed up, and even function when Edge servers go down."
     walletbrd: "BRD is one of the easiest wallets for new Bitcoin Cash users. It's also extremely secure. BRD connects directly to the Bitcoin Cash network, and uses your device's built-in hardware encryption to keep your money safe."
-    walletmyceliumwallet: "Mycelium Bitcoin Cash Wallet for Android is designed for security, speed, and ease of use. It has unique features to manage your keys and for cold storage and offers compatibility with Trezor and others."
-    walletcoinspace: "Coin.Space HD Wallet is a free online Bitcoin Cash wallet, which you can use to make worldwide payments for free. It makes paying with bitcoins easy and secure available anywhere on your phone or desktop."
     walletbitgo: "BitGo is a high-security multi-sig wallet, which protects your Bitcoin Cash from theft and loss. You maintain full custody; BitGo cannot spend or freeze funds. BitGo wallets are easy to use and offer advanced security features such as spending limits and multi-user access."
-    walletgreenaddress: "GreenAddress is a user-friendly multi-signature wallet with improved security and privacy. At no time are your keys server side, even encrypted. For security reasons, you should always use 2FA and the browser extension or Android App."
     wallettrezor: "Trezor is a hardware wallet providing a high level of security without sacrificing convenience. Unlike cold storage, Trezor is able to sign transactions while connected to an online device. That means spending bitcoins is secure even when using a compromised computer."
     walletkeepkey: "KeepKey is a hardware wallet that makes Bitcoin Cash security simple. When you entrust KeepKey with your money, every Bitcoin Cash transaction you make must be reviewed and approved via its OLED display and confirmation button."
     walletcopay: "Copay is the HD-multisignature wallet originally built to secure BitPay's funds. Copay supports multiple personal and shared wallets, testnet, and the full Payment Protocol. A private <a href=\"https://github.com/bitpay/bitcore-wallet-service\">BWS</a> node can be used for enhanced security and privacy."
@@ -228,17 +221,17 @@ en:
     checkneutralvalidationvariable: "Variable validation"
     checkneutralvalidationvariabletxt: "Payment validation features are provided by the software wallet you use with this device. Please see the Validation score for the software wallet you plan to use."
     checkpassvalidationspvp2p: "Simplified validation"
-    checkpassvalidationspvp2ptxt: "This wallet uses SPV and the Bitcoin Cash network. This means very little trust in third parties is required when verifying payments. However, it is not as secure as a full node like <a href=\"#download#\">Bitcoin Cash Core</a>."
+    checkpassvalidationspvp2ptxt: "This wallet uses SPV and the Bitcoin Cash network. This means very little trust in third parties is required when verifying payments. However, it is not as secure as a full node like <a href=\"#download#\">Bitcoin Cash Node</a>."
     checkpassvalidationspvservers: "Simplified validation"
-    checkpassvalidationspvserverstxt: "This wallet uses SPV and random servers from a list. This means little trust in third parties is required when verifying payments. However, it is not as secure as a full node like <a href=\"#download#\">Bitcoin Cash Core</a>."
+    checkpassvalidationspvserverstxt: "This wallet uses SPV and random servers from a list. This means little trust in third parties is required when verifying payments. However, it is not as secure as a full node like <a href=\"#download#\">Bitcoin Cash Node</a>."
     checkpassvalidationservers: "Decentralized validation"
-    checkpassvalidationserverstxt: "This wallet connects to a random server from a list. This means some trust in third parties is required when verifying payments. However, it is not as secure as a full node like <a href=\"#download#\">Bitcoin Cash Core</a>."
+    checkpassvalidationserverstxt: "This wallet connects to a random server from a list. This means some trust in third parties is required when verifying payments. However, it is not as secure as a full node like <a href=\"#download#\">Bitcoin Cash Node</a>."
     checkfailvalidationcentralized: "Centralized validation"
     checkfailvalidationcentralizedtxt: "This wallet relies on a centralized service by default. This means a third party must be trusted to not hide or simulate payments."
     checkgoodtransparencydeterministic: "Complete transparency"
     checkgoodtransparencydeterministictxt: "This wallet is open-source and built deterministically. This means any developer in the world can audit the code and make sure the final software isn't hiding any secrets."
     checkpasstransparencyopensource: "Basic transparency"
-    checkpasstransparencyopensourcetxt: "The developers of this wallet publish the source code for the client. This means any developer in the world can audit the code. However, you still need to trust developers of this wallet when installing or updating the final software because it was not built deterministically like <a href=\"#download#\">Bitcoin Cash Core</a>."
+    checkpasstransparencyopensourcetxt: "The developers of this wallet publish the source code for the client. This means any developer in the world can audit the code. However, you still need to trust developers of this wallet when installing or updating the final software because it was not built deterministically like <a href=\"#download#\">Bitcoin Cash Node</a>."
     checkpasstransparencyopensourcehardware: "Basic transparency"
     checkpasstransparencyopensourcehardwaretxt: "The source code for this wallet is public. This means any developer in the world can audit the code. However, you still need to trust developers of this wallet because the device cannot be verified to be using the same source code to generate secure random seeds and for other operations. Updating your device's firmware, generating your own secure random seed or using multi-signature can make it harder to steal your bitcoins."
     checkpasstransparencyopenspechardware: "Basic transparency"
@@ -288,6 +281,10 @@ en:
     checkneutralfeecontrolvariabletxt: "Fee control features are provided by the software wallet you use with this device. Please see the Fee Control score for the software wallet you plan to use."
     checkfailfeecontrolstatic: "Static fee suggestions"
     checkfailfeecontrolstatictxt: "This wallet does not provide any fee suggestions which are based on current network conditions.  This means that your transactions may be subject to delays if the fee chosen is too low, or that you may pay a fee which is too high."
+    checkpassslptokens: "Supports SLP tokens"
+    checkpassslptokenstxt: "This wallet supports Simple Ledger Protocol tokens. Read more at <a href=\"https://simpleledger.cash\">simpleledger.cash</a>."
+    checkfailslptokens: "Does not support SLP tokens"
+    checkfailslptokenstxt: "This wallet does not support Simple Ledger Protocol tokens. Read more at <a href=\"https://simpleledger.cash\">simpleledger.cash</a>"
     educate: "Take time to educate yourself"
     educatetxt: "Bitcoin Cash is different from what you know and use every day. Before you start using Bitcoin Cash for any serious transaction, be sure to read <a href=\"#you-need-to-know#\"><b>what you need to know</b></a> and take appropriate steps to <a href=\"#secure-your-wallet#\"><b>secure your wallet</b></a>. Always remember that it is your responsibility to choose your wallet carefully and adopt good practices in order to protect your money."
   developer-documentation:
@@ -542,7 +539,7 @@ en:
     poweredoff: "What if I receive a Bitcoin Cash when my computer is powered off?"
     poweredofftxt1: "This works fine. The bitcoins will appear next time you start your wallet application. Bitcoins are not actually received by the software on your computer, they are appended to a public ledger that is shared between all the devices on the network. If you are sent bitcoins when your wallet client program is not running and you later launch it, it will download blocks and catch up with any transactions it did not already know about, and the bitcoins will eventually appear as if they were just received in real time. Your wallet is only needed when you wish to spend bitcoins."
     sync: "What does \"synchronizing\" mean and why does it take so long?"
-    synctxt1: "Long synchronization time is only required with full node clients like Bitcoin Cash Core. Technically speaking, synchronizing is the process of downloading and verifying all previous Bitcoin Cash transactions on the network. For some Bitcoin Cash clients to calculate the spendable balance of your Bitcoin Cash wallet and make new transactions, it needs to be aware of all previous transactions. This step can be resource intensive and requires sufficient bandwidth and storage to accommodate the full size of the block chain. For Bitcoin Cash to remain secure, enough people should keep using full node clients because they perform the task of validating and relaying transactions."
+    synctxt1: "Long synchronization time is only required with full node clients like Bitcoin Cash Node. Technically speaking, synchronizing is the process of downloading and verifying all previous Bitcoin Cash transactions on the network. For some Bitcoin Cash clients to calculate the spendable balance of your Bitcoin Cash wallet and make new transactions, it needs to be aware of all previous transactions. This step can be resource intensive and requires sufficient bandwidth and storage to accommodate the full size of the block chain. For Bitcoin Cash to remain secure, enough people should keep using full node clients because they perform the task of validating and relaying transactions."
     mining: "Mining"
     whatismining: "What is Bitcoin Cash mining?"
     whatisminingtxt1: "Mining is the process of spending computing power to process transactions, secure the network, and keep everyone in the system synchronized together. It can be perceived like the Bitcoin Cash data center except that it has been designed to be fully decentralized with miners operating in all countries and no individual having control over the network. This process is referred to as \"mining\" as an analogy to gold mining because it is also a temporary mechanism used to issue new bitcoins. Unlike gold mining, however, Bitcoin Cash mining provides a reward in exchange for useful services required to operate a secure payment network. Mining will still be required after the last Bitcoin Cash is issued."
@@ -696,7 +693,7 @@ en:
     pagetitle: "Press center"
     summary: "Find interviewees, answers and high quality press materials."
     volunteer: "Interviewees"
-    volunteernonprofit: "Communicate with <a href=\"https://www.bitgivefoundation.org\">BitGive</a>, the <a href=\"https://bitcoincore.org/en/contact\">Bitcoin Cash Core Project</a> or local <a href=\"#community##[community.non-profit]\">non-profit organizations</a>."
+    volunteernonprofit: "Communicate with <a href=\"https://www.bitgivefoundation.org\">BitGive</a>, the <a href=\"https://bitcoincore.org/en/contact\">Bitcoin Cash Node Project</a> or local <a href=\"#community##[community.non-profit]\">non-profit organizations</a>."
     faqmore: "To learn more about Bitcoin, please visit the complete <a href=\"/en/faq\">FAQ</a> or the <a href=\"https://en.bitcoin.it/wiki/Help:FAQ\">Bitcoin Cash Wiki</a>."
   privacy:
     title: "Privacy Policy - Bitcoin"
@@ -730,7 +727,7 @@ en:
     mixing: "Limitations of mixing services"
     mixingtxt: "Some online services called mixing services offer to mix traceability between users by receiving and sending back the same amount using independent Bitcoin Cash addresses. It is important to note that the legality of using such services might vary and be subjected to different rules in each jurisdiction. Such services also require you to trust the individuals running them not to lose or steal your funds and not to keep a log of your requests. Even though mixing services can break traceability for small amounts, it becomes increasingly difficult to do the same for larger transactions."
     future: "Future improvements"
-    futuretxt: "Many improvements can be expected in the future to improve privacy. For instance, some efforts are ongoing with the payment messages API to avoid tainting multiple addresses together during a payment. Bitcoin Cash Core change addresses might be implemented in other wallets over time. Graphical user interfaces might be improved to provide user friendly payment request features and discourage addresses reuse. Various work and research is also being done to develop other potential extended privacy features like being able to join random users' transactions together."
+    futuretxt: "Many improvements can be expected in the future to improve privacy. For instance, some efforts are ongoing with the payment messages API to avoid tainting multiple addresses together during a payment. Bitcoin Cash Node change addresses might be implemented in other wallets over time. Graphical user interfaces might be improved to provide user friendly payment request features and discourage addresses reuse. Various work and research is also being done to develop other potential extended privacy features like being able to join random users' transactions together."
   resources:
     title: "Resources - Bitcoin"
     pagetitle: "Bitcoin Cash resources"
@@ -838,8 +835,8 @@ en:
     blockchaintxt: "The block chain is a <b>public record of Bitcoin Cash transactions</b> in chronological order. The block chain is shared between all Bitcoin Cash users. It is used to verify the permanence of Bitcoin Cash transactions and to prevent <a href=\"#[vocabulary.doublespend]\">double spending</a>."
     block: "Block"
     blocktxt: "A block is a <b>record in the block chain that contains and confirms many waiting transactions</b>. Roughly every 10 minutes, on average, a new block including transactions is appended to the <a href=\"#[vocabulary.blockchain]\">block chain</a> through <a href=\"#[vocabulary.mining]\">mining</a>."
-    btc: "BTC"
-    btctxt: "BTC is a common unit used to designate one Bitcoin Cash (B⃦)."
+    bch: "BCH"
+    bchtxt: "BCH is a common unit used to designate one Bitcoin Cash (B⃦)."
     confirmation: "Confirmation"
     confirmationtxt: "Confirmation means that a transaction has been <b>processed by the network and is highly unlikely to be reversed</b>. Transactions receive a confirmation when they are included in a <a href=\"#vocabulary##[vocabulary.block]\">block</a> and for each subsequent block. Even a single confirmation can be considered secure for low value transactions, although for larger amounts like 1000 US$, it makes sense to wait for 6 confirmations or more. Each confirmation <i>exponentially</i> decreases the risk of a reversed transaction."
     cryptography: "Cryptography"
@@ -870,11 +867,11 @@ en:
     irreversibletxt: "Any transaction issued with Bitcoin Cash cannot be reversed, they can only be refunded by the person receiving the funds. That means you should take care to do business with people and organizations you know and trust, or who have an established reputation. For their part, businesses need to keep control of the payment requests they are displaying to their customers. Bitcoin Cash can detect typos and usually won't let you send money to an invalid address by mistake. Additional services might exist in the future to provide more choice and protection for the consumer."
     anonymous: "Bitcoin Cash is not anonymous"
     anonymoustxt: "Some effort is required to protect your privacy with Bitcoin. All Bitcoin Cash transactions are stored publicly and permanently on the network, which means anyone can see the balance and transactions of any Bitcoin Cash address. However, the identity of the user behind an address remains unknown until information is revealed during a purchase or in other circumstances. This is one reason why Bitcoin Cash addresses should only be used once. Always remember that it is your responsibility to adopt good practices in order to protect your privacy. <a href=\"#protect-your-privacy#\"><b>Read more about protecting your privacy</b></a>."
-    instant: "Unconfirmed transactions aren't secure"
-    instanttxt: "Transactions don't start out as irreversible. Instead, they get a <i>confirmation</i> score that indicates how hard it is to reverse them (see table).  Each confirmation takes between a few seconds and 90 minutes, with 10 minutes being the average. If the transaction pays too low a fee or is otherwise atypical, getting the first confirmation can take much longer."
+    instant: "Unconfirmed transactions are secure"
+    instanttxt: "Unconfirmed transaction security is a spectrum. The smaller the amount, the safer it is to accept a zero-confirmation transaction. For larger amounts it is recommended to wait for at least one or two confirmations."
     confirmations: "Confirm&shy;ations"
     lightweight_wallets: "Lightweight wallets"
-    bitcoin_core: "<a href=\"#download#\">Bitcoin Cash Core</a>"
+    bitcoin_core: "<a href=\"#download#\">Bitcoin Cash Node</a>"
     unconfirmed_only_safe: "Only safe if you trust the person paying you"
     somewhat_reliable: "Somewhat reliable"
     mostly_reliable: "Mostly reliable"
@@ -910,14 +907,14 @@ en:
     menu-vocabulary: Vocabulary
     menu-you-need-to-know: "You need to know"
     banner-core-moved: |
-      This page has moved to the new Bitcoin Cash Core
+      This page has moved to the new Bitcoin Cash Node
       website (click here to be redirected)
 
     banner-translate: "Translations for this language are outdated. <a href=\"{{site.repo}}#translation\">Click here to help translate {{site.name}} in your language</a>."
     footer: "Released under the <a href=\"http://opensource.org/licenses/mit-license.php\" target=\"_blank\">MIT license</a>"
     sponsor: "A community website sponsored by"
     getstarted: "Get started with Bitcoin"
-    bitcoin-core: "Bitcoin Cash Core"
+    bitcoin-core: "Bitcoin Cash Node"
     donation-banner-text: "{{site.name}} is a community funded project, donations are appreciated and used to improve the website."
     donation-banner-toggle-button: "{{site.name}} needs your support!"
     donation-banner-donate-button: "Make a donation"
@@ -964,7 +961,7 @@ en:
       bitcoin: bitcoin
       blockchain: block-chain
       block: block
-      btc: btc
+      bch: bch
       confirmation: confirmation
       cryptography: cryptography
       doublespend: double-spend

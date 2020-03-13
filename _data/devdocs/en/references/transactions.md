@@ -48,7 +48,7 @@ The opcodes used in the pubkey scripts of standard transactions are:
   the next values (signatures) plus one extra value.
 
     The "one extra value" it consumes is the result of an off-by-one
-    error in the Bitcoin Core implementation. This value is not used, so
+    error in the Bitcoin Cash Node implementation. This value is not used, so
     signature scripts prefix the list of secp256k1 signatures with a
     single OP_0 (0x00).
 
@@ -69,7 +69,7 @@ The opcodes used in the pubkey scripts of standard transactions are:
 
 A complete list of opcodes can be found on the Bitcoin Wiki [Script
 Page][wiki script], with an authoritative list in the `opcodetype` enum
-of the Bitcoin Core [script header file][core script.h]
+of the Bitcoin Cash Node [script header file][core script.h]
 
 ![Warning icon](/img/icons/icon_warning.svg)
 **<span id="signature_script_modification_warning">Signature script modification warning</span>:**
@@ -207,10 +207,10 @@ It is this form of a transaction which is SHA256(SHA256()) hashed to create
 the TXID and, ultimately, the merkle root of a block containing the
 transaction---making the transaction format part of the consensus rules.
 
-Bitcoin Core and many other tools print and accept raw transactions
+Bitcoin Cash Node and many other tools print and accept raw transactions
 encoded as hex.
 
-As of Bitcoin Core 0.9.3 (October 2014), all transactions use the
+As of Bitcoin Cash Node 0.9.3 (October 2014), all transactions use the
 version 1 format described below. (Note: transactions in the block chain
 are allowed to list a higher version number to permit soft forks, but
 they are treated as version 1 transactions by current software.)
@@ -247,7 +247,7 @@ Each non-coinbase input spends an outpoint from a previous transaction.
 | 36       | previous_output  | outpoint             | The previous outpoint being spent.  See description of outpoint below.
 | *Varies* | script bytes     | compactSize uint     | The number of bytes in the signature script.  Maximum is 10,000 bytes.
 | *Varies* | signature script | char[]               | A script-language script which satisfies the conditions placed in the outpoint's pubkey script.  Should only contain data pushes; see the [signature script modification warning][].
-| 4        | sequence         | uint32_t             | Sequence number.  Default for Bitcoin Core and almost all other programs is 0xffffffff.
+| 4        | sequence         | uint32_t             | Sequence number.  Default for Bitcoin Cash Node and almost all other programs is 0xffffffff.
 
 {% endautocrossref %}
 
@@ -393,10 +393,10 @@ The raw transaction format and several peer-to-peer network messages use
 a type of variable-length integer to indicate the number of bytes in a
 following piece of data.
 
-Bitcoin Core code and this document refers to these variable length
+Bitcoin Cash Node code and this document refers to these variable length
 integers as compactSize. Many other documents refer to them as var_int
 or varInt, but this risks conflation with other variable-length integer
-encodings---such as the CVarInt class used in Bitcoin Core for
+encodings---such as the CVarInt class used in Bitcoin Cash Node for
 serializing data to disk.  Because it's used in the transaction format,
 the format of compactSize unsigned integers is part of the consensus
 rules.

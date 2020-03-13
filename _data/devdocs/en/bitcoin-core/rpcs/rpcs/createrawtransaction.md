@@ -64,7 +64,7 @@ The `createrawtransaction` RPC {{summary_createRawTransaction}}
 - n: "Locktime"
   t: "numeric (int)"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>Indicates the earliest time a transaction can be added to the block chain"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>Indicates the earliest time a transaction can be added to the block chain"
 
 {% enditemplate %}
 
@@ -78,7 +78,7 @@ The `createrawtransaction` RPC {{summary_createRawTransaction}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli -testnet createrawtransaction '''

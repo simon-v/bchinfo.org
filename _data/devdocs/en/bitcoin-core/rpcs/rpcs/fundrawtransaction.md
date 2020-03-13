@@ -33,7 +33,7 @@ All existing inputs must have their previous output transaction be in the wallet
 - n: "Options"
   t: "Object"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>Additional options"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>Additional options"
 
 - n: "→ <br>`changeAddress`"
   t: "string"
@@ -58,7 +58,7 @@ All existing inputs must have their previous output transaction be in the wallet
 - n: "→ <br>`reserveChangeKey`"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.14.0*<br><br>Reserves the change output key from the keypool. The default is `true`. Before 0.14.0, the used keypool key was never marked as change-address key and directly returned to the keypool (leading to address reuse)."  
+  d: "*Added in Bitcoin Cash Node 0.14.0*<br><br>Reserves the change output key from the keypool. The default is `true`. Before 0.14.0, the used keypool key was never marked as change-address key and directly returned to the keypool (leading to address reuse)."  
   
 - n: "→ <br>`feeRate`"
   t: "numeric (bitcoins)"
@@ -105,7 +105,7 @@ All existing inputs must have their previous output transaction be in the wallet
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli -testnet fundrawtransaction 01000000011da9283b4ddf8d\

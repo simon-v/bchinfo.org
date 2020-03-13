@@ -60,7 +60,7 @@ The `addmultisigaddress` RPC {{summary_addMultiSigAddress}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Adding a 2-of-3 P2SH multisig address to the "test account" by mixing
 two P2PKH addresses and one full public key:

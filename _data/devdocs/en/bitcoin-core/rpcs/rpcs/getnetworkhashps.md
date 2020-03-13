@@ -43,7 +43,7 @@ The `getnetworkhashps` RPC {{summary_getNetworkHashPS}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Get the average hashes per second for all the blocks since the last
 difficulty change before block 227255.

@@ -75,7 +75,7 @@ The `getnettotals` RPC {{summary_getNetTotals}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 {% highlight bash %}
 bitcoin-cli getnettotals

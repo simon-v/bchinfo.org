@@ -117,7 +117,7 @@ use.
 ## Document history
 
 **Note:** The information contained herein is not to be construed as an official
-statement by Bitcoin Core. This site and the Bitcoin Core open source projects are
+statement by Bitcoin Cash Node. This site and the Bitcoin Cash Node open source projects are
 run by separate teams.
 
 A [full history][] of this document is available.  The following points

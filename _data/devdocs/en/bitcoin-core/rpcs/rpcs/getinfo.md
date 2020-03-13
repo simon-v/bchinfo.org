@@ -29,7 +29,7 @@ Core.  Use the RPCs listed in the See Also subsection below instead.
 - n: "→<br>`version`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "This node's version of Bitcoin Core in its internal integer format.  For example, Bitcoin Core 0.9.2 has the integer version number 90200"
+  d: "This node's version of Bitcoin Cash Node in its internal integer format.  For example, Bitcoin Cash Node 0.9.2 has the integer version number 90200"
 
 - n: "→<br>`protocolversion`"
   t: "number (int)"
@@ -108,7 +108,7 @@ Core.  Use the RPCs listed in the See Also subsection below instead.
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0 with wallet support enabled*
+*Example from Bitcoin Cash Node 0.10.0 with wallet support enabled*
 
 {% highlight bash %}
 bitcoin-cli -testnet getinfo

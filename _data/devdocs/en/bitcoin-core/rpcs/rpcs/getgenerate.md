@@ -7,14 +7,14 @@ http://opensource.org/licenses/MIT.
 ##### GetGenerate
 {% include helpers/subhead-links.md %}
 
-{% assign summary_getGenerate="was removed in Bitcoin Core 0.13.0." %}
+{% assign summary_getGenerate="was removed in Bitcoin Cash Node 0.13.0." %}
 
 {% autocrossref %}
 
 *Requires wallet support.*
 
 The `getgenerate` RPC {{summary_getGenerate}} If you have an older
-version of Bitcoin Core, use `help getgenerate` to get help.
+version of Bitcoin Cash Node, use `help getgenerate` to get help.
 
 *See also*
 

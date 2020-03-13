@@ -99,21 +99,21 @@ The `validateaddress` RPC {{summary_validateAddress}}
 - n: "→<br>`account`"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The account this address belong to.  May be an empty string for the default account.  Only returned if the address belongs to the wallet"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The account this address belong to.  May be an empty string for the default account.  Only returned if the address belongs to the wallet"
 
 - n: "→<br>`hdkeypath`"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The HD keypath if the key is HD and available"  
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The HD keypath if the key is HD and available"  
   
 - n: "→<br>`hdmasterkeyid`"
   t: "string (hash160)"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The Hash160 of the HD master public key"  
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The Hash160 of the HD master public key"  
   
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Validate the following P2PKH address from the wallet:
 

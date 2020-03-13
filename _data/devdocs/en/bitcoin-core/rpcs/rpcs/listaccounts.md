@@ -41,7 +41,7 @@ Core.  Use the RPCs listed in the See Also subsection below instead.
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Display account balances with one confirmation and watch-only addresses
 included.

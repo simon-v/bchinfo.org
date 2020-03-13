@@ -8,7 +8,7 @@ http://opensource.org/licenses/MIT.
 
 The following guide aims to provide examples to help you start
 building Bitcoin-based applications. To make the best use of this document,
-you may want to install the current version of Bitcoin Core, either from
+you may want to install the current version of Bitcoin Cash Node, either from
 [source][core git] or from a [pre-compiled executable][core executable].
 
 Once installed, you'll have access to three programs: `bitcoind`,

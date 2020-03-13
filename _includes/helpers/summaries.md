@@ -35,8 +35,8 @@ This file is licensed under the terms of its source texts{%endcomment%}
 {% assign summary_getChainTips="returns information about the highest-height block (tip) of each local block chain." %}
 {% assign summary_getConnectionCount="returns the number of connections to other nodes." %}
 {% assign summary_getDifficultly="returns the proof-of-work difficulty as a multiple of the minimum difficulty." %}
-{% assign summary_getGenerate="was removed in Bitcoin Core 0.13.0." %}
-{% assign summary_getHashesPerSec="was removed in Bitcoin Core 0.11.0." %}
+{% assign summary_getGenerate="was removed in Bitcoin Cash Node 0.13.0." %}
+{% assign summary_getHashesPerSec="was removed in Bitcoin Cash Node 0.11.0." %}
 {% assign summary_getInfo="prints various information about the node and the network." %}
 {% assign summary_getMemPoolAncestors="returns all in-mempool ancestors for a transaction in the mempool." %}
 {% assign summary_getMemPoolDescendants="returns all in-mempool descendants for a transaction in the mempool." %}
@@ -51,7 +51,7 @@ This file is licensed under the terms of its source texts{%endcomment%}
 {% assign summary_getPeerInfo="returns data about each connected network node." %}
 {% assign summary_getRawChangeAddress="returns a new Bitcoin address for receiving change. This is for use with raw transactions, not normal use." %}
 {% assign summary_getRawMemPool="returns all transaction identifiers (TXIDs) in the memory pool as a JSON array, or detailed information about each transaction in the memory pool as a JSON object." %}
-{% assign summary_getRawTransaction="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Core only stores complete transaction data for UTXOs and your own transactions, so the RPC may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Core startup settings." %}
+{% assign summary_getRawTransaction="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Cash Node only stores complete transaction data for UTXOs and your own transactions, so the RPC may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Cash Node startup settings." %}
 {% assign summary_getReceivedByAccount="returns the total amount received by addresses in a particular account from transactions with the specified number of confirmations.  It does not count coinbase transactions." %}
 {% assign summary_getReceivedByAddress="returns the total amount received by the specified address in transactions with the specified number of confirmations. It does not count coinbase transactions." %}
 {% assign summary_getTransaction="gets detailed information about an in-wallet transaction." %}
@@ -60,7 +60,7 @@ This file is licensed under the terms of its source texts{%endcomment%}
 {% assign summary_getTxOutSetInfo="returns statistics about the confirmed unspent transaction output (UTXO) set. Note that this call may take some time and that it only counts outputs from confirmed transactions---it does not count outputs from the memory pool." %}
 {% assign summary_getUnconfirmedBalance="returns the wallet's total unconfirmed balance." %}
 {% assign summary_getWalletInfo="provides information about the wallet." %}
-{% assign summary_getWork="was removed in Bitcoin Core 0.10.0." %}
+{% assign summary_getWork="was removed in Bitcoin Cash Node 0.10.0." %}
 {% assign summary_help="lists all available public RPC commands, or gets help for the specified RPC.  Commands which are unavailable will not be listed, such as wallet RPCs if wallet support is disabled." %}
 {% assign summary_importAddress="adds an address or pubkey script to the wallet without the associated private key, allowing you to watch for transactions affecting that address or pubkey script without being able to spend any of its outputs." %}
 {% assign summary_importMulti="imports addresses or scripts (with private keys, public keys, or P2SH redeem scripts) and optionally performs the minimum necessary rescan for all imports." %}
@@ -91,21 +91,21 @@ This file is licensed under the terms of its source texts{%endcomment%}
 {% assign summary_restGetHeaders="returns a specified amount of block headers in upward direction." %}
 {% assign summary_restGetMemPool-contents="returns all transaction in the memory pool with detailed information." %}
 {% assign summary_restGetMemPool-info="returns information about the node's current transaction memory pool." %}
-{% assign summary_restGetTx="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Core only stores complete transaction data for UTXOs and your own transactions, so this method may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Core startup settings." %}
+{% assign summary_restGetTx="gets a hex-encoded serialized transaction or a JSON object describing the transaction. By default, Bitcoin Cash Node only stores complete transaction data for UTXOs and your own transactions, so this method may fail on historic transactions unless you use the non-default `txindex=1` in your Bitcoin Cash Node startup settings." %}
 {% assign summary_sendFrom="spends an amount from a local account to a bitcoin address." %}
 {% assign summary_sendMany="creates and broadcasts a transaction which sends outputs to multiple addresses." %}
 {% assign summary_sendRawTransaction="validates a transaction and broadcasts it to the peer-to-peer network." %}
 {% assign summary_sendToAddress="spends an amount to a given address." %}
 {% assign summary_setAccount="puts the specified address in the given account." %}
 {% assign summary_setBan="attempts add or remove a IP/Subnet from the banned list." %}
-{% assign summary_setGenerate="was removed in Bitcoin Core 0.13.0." %}
+{% assign summary_setGenerate="was removed in Bitcoin Cash Node 0.13.0." %}
 {% assign summary_setNetworkActive="disables/enables all P2P network activity." %}
 {% assign summary_setTxFee="sets the transaction fee per kilobyte paid by transactions created by this wallet." %}
 {% assign summary_signMessage="signs a message with the private key of an address." %}
 {% assign summary_signMessageWithPrivKey="signs a message with a given private key." %}
 {% assign summary_signRawTransaction="signs a transaction in the serialized transaction format using private keys stored in the wallet or provided in the call." %}
-{% assign summary_stop="safely shuts down the Bitcoin Core server." %}
-{% assign summary_submitBlock="accepts a block, verifies it is a valid addition to the block chain, and broadcasts it to the network. Extra parameters are ignored by Bitcoin Core but may be used by mining pools or other programs." %}
+{% assign summary_stop="safely shuts down the Bitcoin Cash Node server." %}
+{% assign summary_submitBlock="accepts a block, verifies it is a valid addition to the block chain, and broadcasts it to the network. Extra parameters are ignored by Bitcoin Cash Node but may be used by mining pools or other programs." %}
 {% assign summary_validateAddress="returns information about the given Bitcoin address." %}
 {% assign summary_verifyChain="verifies each entry in the local block chain database." %}
 {% assign summary_verifyMessage="verifies a signed message." %}

@@ -41,7 +41,7 @@ The `importaddress` RPC {{summary_importAddress}}
 - n: "Rescan"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "Set to `true` (the default) to rescan the entire local block database for transactions affecting any address or pubkey script in the wallet (including transaction affecting the newly-added address or pubkey script).  Set to `false` to not rescan the block database (rescanning can be performed at any time by restarting Bitcoin Core with the `-rescan` command-line argument).  Rescanning may take several minutes."
+  d: "Set to `true` (the default) to rescan the entire local block database for transactions affecting any address or pubkey script in the wallet (including transaction affecting the newly-added address or pubkey script).  Set to `false` to not rescan the block database (rescanning can be performed at any time by restarting Bitcoin Cash Node with the `-rescan` command-line argument).  Rescanning may take several minutes."
 
 {% enditemplate %}
 
@@ -55,7 +55,7 @@ The `importaddress` RPC {{summary_importAddress}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Add an address, rescanning the local block database for any transactions
 matching it.

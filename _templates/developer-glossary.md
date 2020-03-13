@@ -73,7 +73,7 @@ show_toc: false
   {% when 'p' %}
    See also: [P2P protocol messages](/en/developer-reference#data-messages)
   {% when 'r' %}
-   See also: [Bitcoin Core RPCs](/en/developer-reference#rpc-quick-reference)
+   See also: [Bitcoin Cash Node RPCs](/en/developer-reference#rpc-quick-reference)
   {% endcase %}
 
   <ul class="wrapped_list">

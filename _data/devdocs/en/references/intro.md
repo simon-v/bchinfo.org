@@ -51,10 +51,10 @@ behavior is subject to arbitrary inputs<!--noref--> in a large variety
 of unique environments, it cannot ever be fully documented here or
 anywhere else.
 
-However, the Bitcoin Core developers are working on making their
+However, the Bitcoin Cash Node developers are working on making their
 consensus code portable so other implementations can use it. Bitcoin
 Core 0.10.0 will provide `libbitcoinconsensus`, a first attempt at
-exporting some consensus code. Future versions of Bitcoin Core will
+exporting some consensus code. Future versions of Bitcoin Cash Node will
 likely provide consensus code that is more complete, more portable, and
 more consistent in diverse environments.
 

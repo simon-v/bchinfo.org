@@ -35,7 +35,7 @@ The `settxfee` RPC {{summary_setTxFee}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Set the transaction fee per kilobyte to 100,000 satoshis.
 

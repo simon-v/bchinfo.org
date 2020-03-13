@@ -315,7 +315,7 @@ is the `IsStandard()` test, and transactions which pass it are called
 standard transactions.
 
 Non-standard transactions---those that fail the test---may be accepted
-by nodes not using the default Bitcoin Core settings. If they are
+by nodes not using the default Bitcoin Cash Node settings. If they are
 included in blocks, they will also avoid the IsStandard test and be
 processed.
 
@@ -329,7 +329,7 @@ number, it would become useless as a tool for introducing
 backwards-incompatible features.
 
 
-As of Bitcoin Core 0.9, the standard pubkey script types are:
+As of Bitcoin Cash Node 0.9, the standard pubkey script types are:
 
 {% endautocrossref %}
 
@@ -357,7 +357,7 @@ Signature script: <sig> <pubkey>
 
 P2SH is used to send a transaction to a script hash. Each of the standard
 pubkey scripts can be used as a P2SH redeem script, excluding P2SH itself. 
-As of Bitcoin Core 0.9.2, P2SH transactions can contain any valid redeemScript, 
+As of Bitcoin Cash Node 0.9.2, P2SH transactions can contain any valid redeemScript, 
 making the P2SH standard much more flexible and allowing for experimentation with 
 many novel and complex types of transactions. The most common use of P2SH is the standard 
 multisig pubkey script, with the second most common use being the [Open Assets Protocol][open assets protocol].
@@ -451,7 +451,7 @@ Signature script: <sig>
 {% autocrossref %}
 
 [Null data][/en/glossary/null-data-transaction]{:#term-null-data}{:.term}
-transaction type relayed and mined by default in Bitcoin Core 0.9.0 and
+transaction type relayed and mined by default in Bitcoin Cash Node 0.9.0 and
 later that adds arbitrary data to a provably unspendable pubkey script
 that full nodes don't have to store in their UTXO database. It is
 preferable to use null data transactions over transactions that bloat
@@ -463,7 +463,7 @@ Consensus rules allow null data outputs up to the maximum allowed pubkey
 script size of 10,000 bytes provided they follow all other consensus
 rules, such as not having any data pushes larger than 520 bytes.
 
-Bitcoin Core 0.9.x to 0.10.x will, by default, relay and mine null data
+Bitcoin Cash Node 0.9.x to 0.10.x will, by default, relay and mine null data
 transactions with up to 40 bytes in a single data push and only one null
 data output that pays exactly 0 satoshis:
 
@@ -474,16 +474,16 @@ Pubkey Script: OP_RETURN <0 to 40 bytes of data>
 (Null data scripts cannot be spent, so there's no signature script.)
 ~~~
 
-Bitcoin Core 0.11.x increases this default to 80 bytes, with the other
+Bitcoin Cash Node 0.11.x increases this default to 80 bytes, with the other
 rules remaining the same.
 
-Bitcoin Core 0.12.0 defaults
+Bitcoin Cash Node 0.12.0 defaults
 to relaying and mining null data outputs with up to 83 bytes with any
 number of data pushes, provided the total byte limit is not exceeded.
 There must still only be a single null data output and it must still pay
 exactly 0 satoshis.
 
-The `-datacarriersize` Bitcoin Core configuration option allows you to
+The `-datacarriersize` Bitcoin Cash Node configuration option allows you to
 set the maximum number of bytes in null data outputs that you will relay
 or mine.
 
@@ -493,7 +493,7 @@ or mine.
 {% autocrossref %}
 
 If you use anything besides a standard pubkey script in an output, peers
-and miners using the default Bitcoin Core settings will neither
+and miners using the default Bitcoin Cash Node settings will neither
 accept, broadcast, nor mine your transaction. When you try to broadcast
 your transaction to a peer running the default settings, you will
 receive an error.
@@ -501,7 +501,7 @@ receive an error.
 If you create a redeem script, hash it, and use the hash
 in a P2SH output, the network sees only the hash, so it will accept the
 output as valid no matter what the redeem script says.
-This allows payment to non-standard scripts, and as of Bitcoin Core
+This allows payment to non-standard scripts, and as of Bitcoin Cash Node
 0.11, almost all valid redeem scripts can be spent. The exception is
 scripts that use unassigned [NOP opcodes][]; these opcodes are
 reserved for future soft forks and can only be relayed or mined by nodes
@@ -511,7 +511,7 @@ Note: standard transactions are designed to protect and help the
 network, not prevent you from making mistakes. It's easy to create
 standard transactions which make the satoshis sent to them unspendable.
 
-As of Bitcoin Core 0.9.3, standard transactions must also meet the following
+As of Bitcoin Cash Node 0.9.3, standard transactions must also meet the following
 conditions:
 
 * The transaction must be finalized: either its locktime must be in the
@@ -536,7 +536,7 @@ conditions:
 * The transaction must not include any outputs which receive fewer than
   1/3 as many satoshis as it would take to spend it in a typical input.
   That's [currently 546 satoshis][bitcoin core fee drop commit] for a
-  P2PKH or P2SH output on a Bitcoin Core node with the default relay fee.
+  P2PKH or P2SH output on a Bitcoin Cash Node node with the default relay fee.
   Exception: standard null data outputs must receive zero satoshis.
 
 {% endautocrossref %}
@@ -613,7 +613,7 @@ hash types sign, including the procedure for inserting the subscript -->
 {% autocrossref %}
 
 One thing all signature hash types sign is the transaction's [locktime][/en/glossary/locktime]{:#term-locktime}{:.term}.
-(Called nLockTime in the Bitcoin Core source code.)
+(Called nLockTime in the Bitcoin Cash Node source code.)
 The locktime indicates the earliest time a transaction can be added to
 the block chain.
 
@@ -635,7 +635,7 @@ to two hours before its time lock officially expires. Also, blocks are
 not created at guaranteed intervals, so any attempt to cancel a valuable
 transaction should be made a few hours before the time lock expires.
 
-Previous versions of Bitcoin Core provided a feature which prevented
+Previous versions of Bitcoin Cash Node provided a feature which prevented
 transaction signers from using the method described above to cancel a
 time-locked transaction, but a necessary part of this feature was
 disabled to prevent denial of service attacks. A legacy of this system are four-byte
@@ -647,7 +647,7 @@ allowing the transaction to be added to a block even if its time lock
 had not expired.
 
 Even today, setting all sequence numbers to 0xffffffff (the default in
-Bitcoin Core) can still disable the time lock, so if you want to use
+Bitcoin Cash Node) can still disable the time lock, so if you want to use
 locktime, at least one input must have a sequence number below the
 maximum. Since sequence numbers are not used by the network for any
 other purpose, setting any sequence number to zero is sufficient to
@@ -678,9 +678,9 @@ will accept.
 
 There is also a concept of so-called "[high-priority transactions][/en/glossary/high-priority-transaction]{:#term-high-priority-transactions}{:.term}" which spend satoshis that have not moved for a long time.
 
-In the past, these "priority" transaction were often exempt from the normal fee requirements. Before Bitcoin Core 0.12, 50 KB of each block would be reserved for these high-priority transactions, however this is now set to 0 KB by default.  After the priority area, all transactions are prioritized based on their fee per byte, with higher-paying transactions being added in sequence until all of the available space is filled. {% comment %}<!-- Consider adding links to blockmaxsize and blockmaxweight options once available in the glossary. -->{% endcomment %}
+In the past, these "priority" transaction were often exempt from the normal fee requirements. Before Bitcoin Cash Node 0.12, 50 KB of each block would be reserved for these high-priority transactions, however this is now set to 0 KB by default.  After the priority area, all transactions are prioritized based on their fee per byte, with higher-paying transactions being added in sequence until all of the available space is filled. {% comment %}<!-- Consider adding links to blockmaxsize and blockmaxweight options once available in the glossary. -->{% endcomment %}
 
-As of Bitcoin Core 0.9, a [minimum fee][/en/glossary/minimum-relay-fee]{:#term-minimum-fee}{:.term} (currently 1,000 satoshis) has been required to
+As of Bitcoin Cash Node 0.9, a [minimum fee][/en/glossary/minimum-relay-fee]{:#term-minimum-fee}{:.term} (currently 1,000 satoshis) has been required to
 broadcast a transaction across the network. Any transaction paying only the minimum fee
 should be prepared to wait a long time before there's enough spare space
 in a block to include it. Please see the [verifying payment section][section verifying payment]
@@ -782,12 +782,12 @@ added to the block chain.
 Bitcoin developers have been working to reduce transaction malleability
 among standard transaction types, one outcome of those efforts is
 [BIP 141: Segregated Witness](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki),
-which is supported by Bitcoin Core and was activated in August 2017. 
+which is supported by Bitcoin Cash Node and was activated in August 2017. 
 When SegWit is not being used, new transactions should not depend on
 previous transactions which have not been added to the block chain yet,
 especially if large amounts of satoshis are at stake.
 
-Transaction malleability also affects payment tracking.  Bitcoin Core's
+Transaction malleability also affects payment tracking.  Bitcoin Cash Node's
 RPC interface lets you track transactions by their txid---but if that
 txid changes because the transaction was modified, it may appear that
 the transaction has disappeared from the network.

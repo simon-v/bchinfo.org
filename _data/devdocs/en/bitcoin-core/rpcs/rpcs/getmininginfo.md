@@ -51,7 +51,7 @@ The `getmininginfo` RPC {{summary_getMiningInfo}}
 - n: "→<br>`genproclimit`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Removed in Bitcoin Core 0.13.0*<br><br>The limit on the number of processors to use for generation.  If generation was enabled since the last time this node was restarted, this is the number used in the second parameter of the `setgenerate` RPC (or the default).  Otherwise, it is `-1`"
+  d: "*Removed in Bitcoin Cash Node 0.13.0*<br><br>The limit on the number of processors to use for generation.  If generation was enabled since the last time this node was restarted, this is the number used in the second parameter of the `setgenerate` RPC (or the default).  Otherwise, it is `-1`"
 
 - n: "→<br>`networkhashps`"
   t: "number (int)"
@@ -66,7 +66,7 @@ The `getmininginfo` RPC {{summary_getMiningInfo}}
 - n: "→<br>`testnet`"
   t: "bool"
   p: "Required<br>(exactly 1)"
-  d: "*Removed in Bitcoin Core 0.14.0*<br><br>Set to `true` if this node is running on testnet.  Set to `false` if this node is on mainnet or a regtest"
+  d: "*Removed in Bitcoin Cash Node 0.14.0*<br><br>Set to `true` if this node is running on testnet.  Set to `false` if this node is on mainnet or a regtest"
 
 - n: "→<br>`chain`"
   t: "string"
@@ -76,16 +76,16 @@ The `getmininginfo` RPC {{summary_getMiningInfo}}
 - n: "→<br>`generate`"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "*Removed in Bitcoin Core 0.13.0*<br><br>Set to `true` if generation is currently enabled; set to `false` if generation is currently disabled.  Only returned if the node has wallet support enabled"
+  d: "*Removed in Bitcoin Cash Node 0.13.0*<br><br>Set to `true` if generation is currently enabled; set to `false` if generation is currently disabled.  Only returned if the node has wallet support enabled"
 
 - n: "→<br>`hashespersec`"
   t: "number (int)"
   p: "Optional<br>(0 or 1)"
-  d: "*Removed in Bitcoin Core 0.11.0*<br><br>The approximate number of hashes per second this node is generating across all CPUs, if generation is enabled.  Otherwise `0`.  Only returned if the node has wallet support enabled"
+  d: "*Removed in Bitcoin Cash Node 0.11.0*<br><br>The approximate number of hashes per second this node is generating across all CPUs, if generation is enabled.  Otherwise `0`.  Only returned if the node has wallet support enabled"
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.14.1*
+*Example from Bitcoin Cash Node 0.14.1*
 
 {% highlight bash %}
 bitcoin-cli getmininginfo

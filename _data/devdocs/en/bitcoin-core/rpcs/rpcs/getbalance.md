@@ -21,7 +21,7 @@ The `getbalance` RPC {{summary_getBalance}}
 - n: "Account"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The name of an account to get the balance for.  An empty string (\"\") is the default account.  The string `*` will get the balance for all accounts (this is the default behavior)"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The name of an account to get the balance for.  An empty string (\"\") is the default account.  The string `*` will get the balance for all accounts (this is the default behavior)"
 
 {% enditemplate %}
 
@@ -43,7 +43,7 @@ The `getbalance` RPC {{summary_getBalance}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.10.0*
+*Examples from Bitcoin Cash Node 0.10.0*
 
 Get the balance for the "test1" account, including transactions with
 at least one confirmation and those spent to watch-only addresses in

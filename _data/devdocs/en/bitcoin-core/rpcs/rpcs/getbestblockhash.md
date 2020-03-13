@@ -25,7 +25,7 @@ The `getbestblockhash` RPC {{summary_getBestBlockHash}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli -testnet getbestblockhash

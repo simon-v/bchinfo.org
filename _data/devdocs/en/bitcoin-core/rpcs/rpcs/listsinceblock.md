@@ -69,7 +69,7 @@ The `listsinceblock` RPC {{summary_listSinceBlock}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Get all transactions since a particular block (including watch-only
 transactions) and the header hash of the sixth most recent block.

@@ -51,7 +51,7 @@ The `getblockchaininfo` RPC {{summary_getBlockChainInfo}}
 - n: "→<br>`mediantime`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
   
 - n: "→<br>`verificationprogress`"
   t: "number (real)"
@@ -66,17 +66,17 @@ The `getblockchaininfo` RPC {{summary_getBlockChainInfo}}
 - n: "→<br>`pruned`"
   t: "bool"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.11.0*<br><br>Indicates if the blocks are subject to pruning"
+  d: "*Added in Bitcoin Cash Node 0.11.0*<br><br>Indicates if the blocks are subject to pruning"
   
 - n: "→<br>`pruneheight`"
   t: "number (int)"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.11.0*<br><br>The lowest-height complete block stored if prunning is activated"
+  d: "*Added in Bitcoin Cash Node 0.11.0*<br><br>The lowest-height complete block stored if prunning is activated"
   
 - n: "→<br>`softforks`"
   t: "array"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>An array of objects each describing a current or previous soft fork"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>An array of objects each describing a current or previous soft fork"
 
 - n: "→ →<br>Softfork"
   t: "object"
@@ -146,7 +146,7 @@ The `getblockchaininfo` RPC {{summary_getBlockChainInfo}}
 - n: "→<br>`bip9_softforks`"
   t: "object"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.1*<br><br>The status of BIP9 softforks in progress"
+  d: "*Added in Bitcoin Cash Node 0.12.1*<br><br>The status of BIP9 softforks in progress"
   
 - n: "→ →<br>Name"
   t: "string : object"
@@ -176,11 +176,11 @@ The `getblockchaininfo` RPC {{summary_getBlockChainInfo}}
 - n: "→ → →<br>`since`"
   t: "numeric<br>(int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.14.0*<br><br>The height of the first block to which the status applies"
+  d: "*Added in Bitcoin Cash Node 0.14.0*<br><br>The height of the first block to which the status applies"
   
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.14.1*
+*Example from Bitcoin Cash Node 0.14.1*
 
 {% highlight bash %}
 bitcoin-cli getblockchaininfo

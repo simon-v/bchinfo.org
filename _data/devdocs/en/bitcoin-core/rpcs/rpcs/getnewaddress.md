@@ -43,7 +43,7 @@ The `getnewaddress` RPC {{summary_getNewAddress}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Create a new address in the "doc test" account:
 

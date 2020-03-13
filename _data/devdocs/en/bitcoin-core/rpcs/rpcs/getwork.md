@@ -7,12 +7,12 @@ http://opensource.org/licenses/MIT.
 ##### GetWork
 {% include helpers/subhead-links.md %}
 
-{% assign summary_getWork="was removed in Bitcoin Core 0.10.0." %}
+{% assign summary_getWork="was removed in Bitcoin Cash Node 0.10.0." %}
 
 {% autocrossref %}
 
 The `getwork` RPC {{summary_getWork}}  If you have an older
-version of Bitcoin Core, use `help getwork` to get help.
+version of Bitcoin Cash Node, use `help getwork` to get help.
 
 *See also*
 

@@ -43,7 +43,7 @@ The `addnode` RPC {{summary_addNode}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Try connecting to the following node.
 

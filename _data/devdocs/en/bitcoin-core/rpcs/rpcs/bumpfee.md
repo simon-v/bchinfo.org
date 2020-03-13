@@ -11,7 +11,7 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
-*Added in Bitcoin Core 0.14.0*
+*Added in Bitcoin Cash Node 0.14.0*
 
 *Requires wallet support. Wallet must be unlocked.*
 
@@ -83,7 +83,7 @@ if the wallet or mempool contains a transaction that spends one of the transacti
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.14.1*
+*Example from Bitcoin Cash Node 0.14.1*
 
 {% highlight bash %}
 bitcoin-cli -testnet bumpfee d4a33e0cabaz723149e1fcab4e033a40173\

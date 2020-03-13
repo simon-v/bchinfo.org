@@ -34,7 +34,7 @@ The `decoderawtransaction` RPC {{summary_decodeRawTransaction}}
 {{INCLUDE_DECODE_RAW_TRANSACTION}}
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Decode a signed one-input, three-output transaction:
 

@@ -58,7 +58,7 @@ The `createmultisig` RPC {{summary_createMultiSig}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Creating a 2-of-3 P2SH multisig address by mixing two P2PKH addresses and
 one full public key:

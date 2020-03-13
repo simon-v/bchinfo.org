@@ -12,7 +12,7 @@ http://opensource.org/licenses/MIT.
 - n: "{{DEPTH}}<br>`account`"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The account which the payment was credited to or debited from.  May be an empty string (\"\") for the default account"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The account which the payment was credited to or debited from.  May be an empty string (\"\") for the default account"
 
 - n: "{{DEPTH}}<br>`address`"
   t: "string (base58)"
@@ -96,7 +96,7 @@ http://opensource.org/licenses/MIT.
 - n: "{{DEPTH}}<br>`bip125-replaceable`"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>Indicates if a transaction is replaceable under BIP 125:<br>• `yes` is replaceable<br>• `no` not replaceable<br>• `unknown` for unconfirmed transactions not in the mempool"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>Indicates if a transaction is replaceable under BIP 125:<br>• `yes` is replaceable<br>• `no` not replaceable<br>• `unknown` for unconfirmed transactions not in the mempool"
   
 - n: "{{DEPTH}}<br>`comment`"
   t: "string"
@@ -134,17 +134,17 @@ bitcoins even if this parameter is set to `1` or higher.{% endcapture %}
 - n: "{{DEPTH}} →<br>`hash`"
   t: "string (hex)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The transaction hash.  Differs from txid for witness transactions"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The transaction hash.  Differs from txid for witness transactions"
   
 - n: "{{DEPTH}} →<br>`size`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The serialized transaction size"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The serialized transaction size"
 
 - n: "{{DEPTH}} →<br>`vsize`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>The virtual transaction size.  Differs from size for witness transactions"
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>The virtual transaction size.  Differs from size for witness transactions"
   
 - n: "{{DEPTH}} →<br>`version`"
   t: "number (int)"
@@ -204,7 +204,7 @@ bitcoins even if this parameter is set to `1` or higher.{% endcapture %}
 - n: "{{DEPTH}} → → →<br>`txinwitness`"
   t: "string : array"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.13.0*<br><br>Hex-encoded witness data. Only for segregated witness transactions"  
+  d: "*Added in Bitcoin Cash Node 0.13.0*<br><br>Hex-encoded witness data. Only for segregated witness transactions"  
   
 - n: "{{DEPTH}} →<br>`vout`"
   t: "array"
@@ -287,4 +287,4 @@ bitcoins even if this parameter is set to `1` or higher.{% endcapture %}
 
 {% assign WARNING="![Warning icon](/img/icons/icon_warning.svg) **Warning:**" %}
 
-{% assign reindexNote="Note: if you begin using `txindex=1` after downloading the block chain, you must rebuild your indexes by starting Bitcoin Core with the option  `-reindex`.  This may take several hours to complete, during which time your node will not process new blocks or transactions. This reindex only needs to be done once." %}
+{% assign reindexNote="Note: if you begin using `txindex=1` after downloading the block chain, you must rebuild your indexes by starting Bitcoin Cash Node with the option  `-reindex`.  This may take several hours to complete, during which time your node will not process new blocks or transactions. This reindex only needs to be done once." %}

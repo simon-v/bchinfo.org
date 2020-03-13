@@ -29,7 +29,7 @@ The `sendrawtransaction` RPC {{summary_sendRawTransaction}}
 - n: "Allow High Fees"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "Set to `true` to allow the transaction to pay a high transaction fee.  Set to `false` (the default) to prevent Bitcoin Core from broadcasting the transaction if it includes a high fee.  Transaction fees are the sum of the inputs minus the sum of the outputs, so this high fees check helps ensures user including a change address to return most of the difference back to themselves"
+  d: "Set to `true` to allow the transaction to pay a high transaction fee.  Set to `false` (the default) to prevent Bitcoin Cash Node from broadcasting the transaction if it includes a high fee.  Transaction fees are the sum of the inputs minus the sum of the outputs, so this high fees check helps ensures user including a change address to return most of the difference back to themselves"
 
 {% enditemplate %}
 
@@ -43,7 +43,7 @@ The `sendrawtransaction` RPC {{summary_sendRawTransaction}}
 
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.10.0*
+*Examples from Bitcoin Cash Node 0.10.0*
 
 Broadcast a signed transaction:
 

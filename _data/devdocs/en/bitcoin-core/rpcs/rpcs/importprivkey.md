@@ -41,7 +41,7 @@ The `importprivkey` RPC {{summary_importPrivKey}}
 - n: "Rescan"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "Set to `true` (the default) to rescan the entire local block database for transactions affecting any address or pubkey script in the wallet (including transaction affecting the newly-added address for this private key).  Set to `false` to not rescan the block database (rescanning can be performed at any time by restarting Bitcoin Core with the `-rescan` command-line argument).  Rescanning may take several minutes.  Notes: if the address for this key is already in the wallet, the block database will not be rescanned even if this parameter is set"
+  d: "Set to `true` (the default) to rescan the entire local block database for transactions affecting any address or pubkey script in the wallet (including transaction affecting the newly-added address for this private key).  Set to `false` to not rescan the block database (rescanning can be performed at any time by restarting Bitcoin Cash Node with the `-rescan` command-line argument).  Rescanning may take several minutes.  Notes: if the address for this key is already in the wallet, the block database will not be rescanned even if this parameter is set"
 
 {% enditemplate %}
 
@@ -55,7 +55,7 @@ The `importprivkey` RPC {{summary_importPrivKey}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Import the private key for the address
 mgnucj8nYqdrPFh2JfZSB1NmUThUGnmsqe, giving it a label and scanning the

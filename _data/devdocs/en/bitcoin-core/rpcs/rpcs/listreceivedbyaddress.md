@@ -59,7 +59,7 @@ The `listreceivedbyaddress` RPC {{summary_listReceivedByAddress}}
 - n: "→ →<br>`account`"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The account the address belongs to.  May be the default account, an empty string (\"\")"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The account the address belongs to.  May be the default account, an empty string (\"\")"
 
 - n: "→ →<br>`amount`"
   t: "number (bitcoins)"
@@ -88,7 +88,7 @@ The `listreceivedbyaddress` RPC {{summary_listReceivedByAddress}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 List addresses with balances confirmed by at least six blocks, including
 watch-only addresses:

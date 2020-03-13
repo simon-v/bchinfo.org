@@ -76,7 +76,7 @@ The `sendtoaddress` RPC {{summary_sendToAddress}}
   
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Spend 0.1 bitcoins to the address below with the comment "sendtoaddress
 example" and the comment-to "Nemo From Example.com":

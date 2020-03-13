@@ -23,8 +23,8 @@ that this site has decided to adopt a new policy:
 > We will not promote software or services that will leave the
 > previous consensus because of an intentional and contentious hard fork attempt.
 
-This policy applies to full node software, such as Bitcoin Core,
-software forks of Bitcoin Core, and alternative full node
+This policy applies to full node software, such as Bitcoin Cash Node,
+software forks of Bitcoin Cash Node, and alternative full node
 implementations.
 
 It also applies to wallets and services that have the ability to detect

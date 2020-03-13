@@ -42,11 +42,11 @@ The `signmessage` RPC {{summary_signMessage}}
 - n: "`result`"
   t: "string (base64)"
   p: "Required<br>(exactly 1)"
-  d: "The signature of the message, encoded in base64.  Note that Bitcoin Core before 0.10.0 creates signatures with random *k* values, so each time you sign the same message, it will create a different signature"
+  d: "The signature of the message, encoded in base64.  Note that Bitcoin Cash Node before 0.10.0 creates signatures with random *k* values, so each time you sign the same message, it will create a different signature"
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 Sign a the message "Hello, World!" using the following address:
 

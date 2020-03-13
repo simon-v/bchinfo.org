@@ -7,7 +7,7 @@ http://opensource.org/licenses/MIT.
 ##### Stop
 {% include helpers/subhead-links.md %}
 
-{% assign summary_stop="safely shuts down the Bitcoin Core server." %}
+{% assign summary_stop="safely shuts down the Bitcoin Cash Node server." %}
 
 {% autocrossref %}
 
@@ -25,7 +25,7 @@ The `stop` RPC {{summary_stop}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 {% highlight bash %}
 bitcoin-cli -testnet stop

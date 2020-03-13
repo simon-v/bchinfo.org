@@ -98,7 +98,7 @@ The `signrawtransaction` RPC {{summary_signRawTransaction}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Sign the hex generated in the example section for the `createrawtransaction`
 RPC:

@@ -38,8 +38,8 @@ a different look and feel to it.
 * Removed Events. The events page on Bitcoin.org<!-- skip-test --> was frequently populated with
 non-bitcoin related events. This page is additionally hard to maintain with
 new events, so it has been removed.
-* Removed Bitcoin Core sub-site. Bitcoin Core is a project independent of
-Bitcoin.org<!-- skip-test --> and btcinformation.org. Thus pages dedicated solely to Bitcoin Core
+* Removed Bitcoin Cash Node sub-site. Bitcoin Cash Node is a project independent of
+Bitcoin.org<!-- skip-test --> and btcinformation.org. Thus pages dedicated solely to Bitcoin Cash Node
 have been removed.
 * Disabled translations. While we are working on the site, we have temporarily
 disabled translations. They will be re-enabled at some time in the future.

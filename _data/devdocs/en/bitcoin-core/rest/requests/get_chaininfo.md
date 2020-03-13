@@ -57,7 +57,7 @@ GET /chaininfo.json
 - n: "→<br>`mediantime`"
   t: "number (int)"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>The median time of the 11 blocks before the most recent block on the blockchain.  Used for validating transaction locktime under BIP113"
   
 - n: "→<br>`verificationprogress`"
   t: "number (real)"
@@ -82,7 +82,7 @@ GET /chaininfo.json
 - n: "→<br>`softforks`"
   t: "array"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>An array of objects each describing a current or previous soft fork"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>An array of objects each describing a current or previous soft fork"
 
 - n: "→ →<br>Softfork"
   t: "object"
@@ -152,7 +152,7 @@ GET /chaininfo.json
 - n: "→<br>`bip9_softforks`"
   t: "object"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.1*<br><br>The status of BIP9 softforks in progress"
+  d: "*Added in Bitcoin Cash Node 0.12.1*<br><br>The status of BIP9 softforks in progress"
   
 - n: "→ →<br>Name"
   t: "string : object"
@@ -181,7 +181,7 @@ GET /chaininfo.json
   
 {% enditemplate %}
 
-*Examples from Bitcoin Core 0.13.1*
+*Examples from Bitcoin Cash Node 0.13.1*
 
 Get blockchain info in JSON:
 

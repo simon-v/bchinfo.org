@@ -21,7 +21,7 @@ The `listtransactions` RPC {{summary_listTransactions}}
 - n: "Account"
   t: "string"
   p: "Optional<br>(0 or 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The name of an account to get transactinos from.  Use an empty string (\"\") to get transactions for the default account.  Default is `*` to get transactions for all accounts."
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The name of an account to get transactinos from.  Use an empty string (\"\") to get transactions for the default account.  Default is `*` to get transactions for all accounts."
 
 {% enditemplate %}
 
@@ -65,7 +65,7 @@ The `listtransactions` RPC {{summary_listTransactions}}
 - n: "→ →<br>`account`"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Deprecated: will be removed in a later version of Bitcoin Core*<br><br>The account which the payment was credited to or debited from.  May be an empty string (\"\") for the default account"
+  d: "*Deprecated: will be removed in a later version of Bitcoin Cash Node*<br><br>The account which the payment was credited to or debited from.  May be an empty string (\"\") for the default account"
 
 - n: "→ →<br>`address`"
   t: "string (base58)"
@@ -170,16 +170,16 @@ The `listtransactions` RPC {{summary_listTransactions}}
 - n: "→ →<br>`bip125-replaceable`"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "*Added in Bitcoin Core 0.12.0*<br><br>Indicates if a transaction is replaceable under BIP125:<br>• `yes` replaceable<br>• `no` not replaceable<br>• `unknown` for unconfirmed transactions not in the mempool"
+  d: "*Added in Bitcoin Cash Node 0.12.0*<br><br>Indicates if a transaction is replaceable under BIP125:<br>• `yes` replaceable<br>• `no` not replaceable<br>• `unknown` for unconfirmed transactions not in the mempool"
   
 - n: "→ →<br>`abandoned`"
   t: "bool"
   p: "Optional<br>(0 or 1)"
-  d: "*Added in Bitcoin Core 0.12.1*<br><br>Indicates if a transaction is was abandoned:<br>• `true` if it was abandoned (inputs are respendable)<br>• `false`  if it was not abandoned<br>Only returned by *send* category payments"
+  d: "*Added in Bitcoin Cash Node 0.12.1*<br><br>Indicates if a transaction is was abandoned:<br>• `true` if it was abandoned (inputs are respendable)<br>• `false`  if it was not abandoned<br>Only returned by *send* category payments"
   
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.13.1*
+*Example from Bitcoin Cash Node 0.13.1*
 
 List the most recent transaction from all accounts including watch-only addresses.
 

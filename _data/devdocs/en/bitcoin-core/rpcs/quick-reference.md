@@ -17,31 +17,31 @@ Use v0.n.n in abbreviation title to prevent autocrossrefing.
 {% endcomment %}
 
 <!-- Deprecated -->
-{% assign DEPRECATED='**<abbr title="Deprecated; will be removed in a future version of Bitcoin Core">Deprecated</abbr>**' %}
+{% assign DEPRECATED='**<abbr title="Deprecated; will be removed in a future version of Bitcoin Cash Node">Deprecated</abbr>**' %}
 
-<!-- Bitcoin Core 0.14.1 April 2017 -->
-{% assign UPDATED0_14_0='**<abbr title="Updated in Bitcoin Core v0.14.1">Updated in 0.14.1</abbr>**' %}
+<!-- Bitcoin Cash Node 0.14.1 April 2017 -->
+{% assign UPDATED0_14_0='**<abbr title="Updated in Bitcoin Cash Node v0.14.1">Updated in 0.14.1</abbr>**' %}
 
-<!-- Bitcoin Core 0.14.0 March 2017 -->
-{% assign NEW0_14_0='**<abbr title="New in Bitcoin Core v0.14.0">New in 0.14.0</abbr>**' %}
-{% assign UPDATED0_14_0='**<abbr title="Updated in Bitcoin Core v0.14.0">Updated in 0.14.0</abbr>**' %}
+<!-- Bitcoin Cash Node 0.14.0 March 2017 -->
+{% assign NEW0_14_0='**<abbr title="New in Bitcoin Cash Node v0.14.0">New in 0.14.0</abbr>**' %}
+{% assign UPDATED0_14_0='**<abbr title="Updated in Bitcoin Cash Node v0.14.0">Updated in 0.14.0</abbr>**' %}
 
-<!-- Bitcoin Core 0.13.1 September 2016 -->
-{% assign UPDATED0_13_1='*<abbr title="Updated in Bitcoin Core v0.13.1">Updated in 0.13.1</abbr>*' %}
+<!-- Bitcoin Cash Node 0.13.1 September 2016 -->
+{% assign UPDATED0_13_1='*<abbr title="Updated in Bitcoin Cash Node v0.13.1">Updated in 0.13.1</abbr>*' %}
 
-<!-- Bitcoin Core 0.13.0 August 2016 -->
-{% assign NEW0_13_0='*<abbr title="New in Bitcoin Core v0.13.0">New in 0.13.0</abbr>*' %}
-{% assign UPDATED0_13_0='*<abbr title="Updated in Bitcoin Core v0.13.0">Updated in 0.13.0</abbr>*' %}
+<!-- Bitcoin Cash Node 0.13.0 August 2016 -->
+{% assign NEW0_13_0='*<abbr title="New in Bitcoin Cash Node v0.13.0">New in 0.13.0</abbr>*' %}
+{% assign UPDATED0_13_0='*<abbr title="Updated in Bitcoin Cash Node v0.13.0">Updated in 0.13.0</abbr>*' %}
 
-<!-- Bitcoin Core 0.12.1 April 2016 -->
-{% assign UPDATED0_12_1='*<abbr title="Updated in Bitcoin Core v0.12.1">Updated in 0.12.1</abbr>*' %}
+<!-- Bitcoin Cash Node 0.12.1 April 2016 -->
+{% assign UPDATED0_12_1='*<abbr title="Updated in Bitcoin Cash Node v0.12.1">Updated in 0.12.1</abbr>*' %}
 
-<!-- Bitcoin Core 0.12.0 February 2016 -->
-{% assign NEW0_12_0='*<abbr title="New in Bitcoin Core v0.12.0">New in 0.12.0</abbr>*' %}
-{% assign UPDATED0_12_0='*<abbr title="Updated in Bitcoin Core v0.12.0">Updated in 0.12.0</abbr>*' %}
+<!-- Bitcoin Cash Node 0.12.0 February 2016 -->
+{% assign NEW0_12_0='*<abbr title="New in Bitcoin Cash Node v0.12.0">New in 0.12.0</abbr>*' %}
+{% assign UPDATED0_12_0='*<abbr title="Updated in Bitcoin Cash Node v0.12.0">Updated in 0.12.0</abbr>*' %}
 
-<!-- Bitcoin Core 0.11.0 July 2015 -->
-{% assign NEW0_11_0='*<abbr title="New in Bitcoin Core v0.11.0">New in 0.11.0</abbr>*' %}
+<!-- Bitcoin Cash Node 0.11.0 July 2015 -->
+{% assign NEW0_11_0='*<abbr title="New in Bitcoin Cash Node v0.11.0">New in 0.11.0</abbr>*' %}
 
 <!-- the summaries used below are defined in the files for the
      particular RPC and aggregated into this helper file by the makefile
@@ -174,7 +174,7 @@ Use v0.n.n in abbreviation title to prevent autocrossrefing.
 
 {% autocrossref %}
 
-**Note:** the wallet RPCs are only available if Bitcoin Core was built
+**Note:** the wallet RPCs are only available if Bitcoin Cash Node was built
 with [wallet support][]{:#term-wallet-support}{:.term}, which is the
 default.
 

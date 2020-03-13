@@ -22,7 +22,7 @@ The `importwallet` RPC {{summary_importWallet}}
 - n: "Filename"
   t: "string"
   p: "Required<br>(exactly 1)"
-  d: "The file to import.  The path is relative to Bitcoin Core's working directory"
+  d: "The file to import.  The path is relative to Bitcoin Cash Node's working directory"
 
 {% enditemplate %}
 
@@ -36,7 +36,7 @@ The `importwallet` RPC {{summary_importWallet}}
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Import the file shown in the example subsection of the `dumpwallet` RPC.
 

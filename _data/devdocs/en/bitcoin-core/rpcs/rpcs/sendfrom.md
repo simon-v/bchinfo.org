@@ -45,7 +45,7 @@ Core.  Use the RPCs listed in the See Also subsection below instead.
 - n: "Amount"
   t: "number (bitcoins)"
   p: "Required<br>(exactly 1)"
-  d: "The amount to spend in bitcoins.  Bitcoin Core will ensure the account has sufficient bitcoins to pay this amount (but the transaction fee paid is not included in the calculation, so an account can spend a total of its balance plus the transaction fee)"
+  d: "The amount to spend in bitcoins.  Bitcoin Cash Node will ensure the account has sufficient bitcoins to pay this amount (but the transaction fee paid is not included in the calculation, so an account can spend a total of its balance plus the transaction fee)"
 
 {% enditemplate %}
 
@@ -83,7 +83,7 @@ Core.  Use the RPCs listed in the See Also subsection below instead.
 
 {% enditemplate %}
 
-*Example from Bitcoin Core 0.10.0*
+*Example from Bitcoin Cash Node 0.10.0*
 
 Spend 0.1 bitcoins from the account "test" to the address indicated below
 using only UTXOs with at least six confirmations, giving the

@@ -290,7 +290,7 @@ devsearches:
     - 'GetMemPool-contents': "/en/developer-reference#get-mempoolcontents"
     - 'GetMemPool-info': "/en/developer-reference#get-mempoolinfo"
 
-  ## Opcodes currently implemented in Bitcoin Core master branch. After
+  ## Opcodes currently implemented in Bitcoin Cash Node master branch. After
   ## we document them on Bitcoin.org, these links will be updated
   "Opcodes":
     - "OP_0 (OP_FALSE)": "https://en.bitcoin.it/wiki/Script#Constants"
