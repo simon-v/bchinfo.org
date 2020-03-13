@@ -96,8 +96,8 @@ module Jekyll
       ## section of their '_translations' YAML file.
       text.gsub!('#bitcoin-paper#','/bitcoin.pdf')
 
-      ## Hack for renaming links to the Bitcoin Core download
-      text.gsub!('#download#','https://bitcoincore.org/en/download')
+      ## Hack for renaming links to the Bitcoin Cash Node download
+      text.gsub!('#download#','https://bitcoincashnode.org/')
 
       anc = site['loc'][lang]['anchor']
       anc.each do |page,anch|

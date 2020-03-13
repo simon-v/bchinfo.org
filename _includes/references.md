@@ -428,16 +428,6 @@ periodically to point to recent code. Last update: 2014-11-12 --> {% endcomment 
 
 <!-- FIXME previously removed links -->
 [bcc contribute issues]: https://github.com/bitcoin/bitcoin/issues/
-[core executable]: https://bitcoincore.org/en/download/
+[core executable]: https://bitcoincashnode.org
 
-[Bitcoin Cash Node 0.11.0]: https://bitcoincore.org/en/releases/0.11.0/
-[Bitcoin Cash Node 0.11.1]: https://bitcoincore.org/en/releases/0.11.1/
-[Bitcoin Cash Node 0.11.2]: https://bitcoincore.org/en/releases/0.11.2/
-[Bitcoin Cash Node 0.12.0]: https://bitcoincore.org/en/releases/0.12.0/
-[Bitcoin Cash Node 0.12.1]: https://bitcoincore.org/en/releases/0.12.1/
-[Bitcoin Cash Node 0.13.0]: https://bitcoincore.org/en/releases/0.13.0/
-[Bitcoin Cash Node 0.13.1]: https://bitcoincore.org/en/releases/0.13.1/
-[Bitcoin Cash Node 0.13.2]: https://bitcoincore.org/en/releases/0.13.2/
-[Bitcoin Cash Node 0.14.0]: https://bitcoincore.org/en/releases/0.14.0/
-[Bitcoin Cash Node 0.14.1]: https://bitcoincore.org/en/releases/0.14.1/
-[Bitcoin Cash Node 0.14.2]: https://bitcoincore.org/en/releases/0.14.2/
+
