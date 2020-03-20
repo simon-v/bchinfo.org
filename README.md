@@ -1,12 +1,12 @@
-# Welcome to Btcinformation.org's Codebase
+# Welcome to BCHInfo.org's Codebase
 
 This is a fork of Bitcoin.org.
 
-Current Build Status: ![Build Status](https://travis-ci.org/achow101/btcinformation.org.svg?branch=master)
+Current Build Status: ![Build Status](https://travis-ci.org/achow101/bchinfo.org.svg?branch=master)
 
-Live site: [Btcinformation.org](https://btcinformation.org)
+Live site: [BCHInfo.org](https://bchinfo.org)
 
-Report problems or help improve the site by opening a [new issue](https://github.com/achow101/btcinformation.org/issues/new) or [pull request](https://github.com/achow101/btcinformation.org/compare).
+Report problems or help improve the site by opening a [new issue](https://github.com/pokkst/bchinfo.org/issues/new) or [pull request](https://github.com/pokkst/bchinfo.org/compare).
 
 ## How to Participate
 The following quick guides will help you get started:
@@ -23,8 +23,8 @@ The following quick guides will help you get started:
 
 ### Code of Conduct
 
-Participation in this project is subject to a [Code of Conduct](https://github.com/achow101/btcinformation.org/blob/master/CODE_OF_CONDUCT.md).
+Participation in this project is subject to a [Code of Conduct](https://github.com/pokkst/bchinfo.org/blob/master/CODE_OF_CONDUCT.md).
 
 ### Questions?
 
-Please contact Andrew Chow ([admin@btcinformation.org](mailto:admin@btcinformation.org)) if you need help.
+Please contact Andrew Chow ([admin@bchinfo.org](mailto:admin@bchinfo.org)) if you need help.
